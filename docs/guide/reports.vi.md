@@ -1,0 +1,41 @@
+# Báo cáo
+
+Doanh thu, cơ cấu khách, xuất CSV, tóm tắt AI ngay trên máy.
+
+## Tổng quan
+
+Chủ / Quản lý xem số cả tiệm. Nhân viên chỉ thấy **Báo cáo của tôi**.
+
+<div class="shot-row" markdown>
+
+<figure class="shot-phone" markdown>
+![Báo cáo trên điện thoại](../images/vi/light/reports.png){ loading=lazy }
+<figcaption>Điện thoại</figcaption>
+</figure>
+
+<figure class="shot-wide" markdown>
+![Báo cáo trên máy tính bảng](../images/vi/light/reports-wide.png){ loading=lazy }
+<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+</figure>
+
+</div>
+
+## Cách làm
+
+Trang này có doanh thu theo ngày, tuần, tháng, quý, năm (tổng thu, tiền hoàn,
+thực thu). Kèm theo: trung bình mỗi hóa đơn; thuế, tip, hoa hồng, chi trả;
+dịch vụ chạy nhất; lịch khách không tới; **Cơ cấu khách**; cơ cấu thanh toán;
+và hiệu suất nhân viên (chỉ Chủ tiệm và Quản lý thấy).
+
+Khoảng trống nghĩa là chưa có dữ liệu trong khoảng ngày đó.
+
+**Xuất** tải CSV trên máy bạn, không phải báo cáo cloud gửi email.
+
+**Phân tích bằng AI** và **Tóm tắt tự động** chạy ngay trên máy, sau khi tải
+mô hình về. Xem [Trợ lý AI](ai-assistant.md).
+
+## Trang liên quan
+
+- [Trợ lý AI](ai-assistant.md)
+- [Thu nhập và chi trả](earnings.md)
+- [Khách hàng](customers.md)

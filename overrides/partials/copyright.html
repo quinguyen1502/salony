@@ -1,0 +1,31 @@
+{#- Help links live in the site footer so the homepage stays a product
+    landing. Labels follow the page locale from mkdocs-static-i18n. -#}
+{% set loc = i18n_page_locale | default(config.theme.language) %}
+<nav class="footer-help" aria-label="{% if loc == 'en' %}Help{% else %}Trợ giúp{% endif %}">
+  {% if loc == 'en' %}
+    <a href="{{ 'en/admin/downloads/' | url }}">Downloads</a>
+    <a href="{{ 'en/reference/faq/' | url }}">FAQ</a>
+    <a href="{{ 'en/tech/limits/' | url }}">Limits</a>
+    <a href="{{ 'en/admin/backup/' | url }}">Backup</a>
+    <a href="{{ 'en/reference/terminology/' | url }}">Terminology</a>
+  {% else %}
+    <a href="{{ 'admin/downloads/' | url }}">Tải về</a>
+    <a href="{{ 'reference/faq/' | url }}">FAQ</a>
+    <a href="{{ 'tech/limits/' | url }}">Giới hạn</a>
+    <a href="{{ 'admin/backup/' | url }}">Sao lưu</a>
+    <a href="{{ 'reference/terminology/' | url }}">Thuật ngữ</a>
+  {% endif %}
+</nav>
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+</div>

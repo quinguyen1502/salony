@@ -1,0 +1,159 @@
+site_name: Salony
+site_description: Handbook vận hành tiệm
+
+# Required for canonical tags, a real sitemap, and the language
+# switcher: mkdocs-static-i18n derives its base path from this. Unset,
+# it emits absolute `/` and `/en/`, which miss the Pages subpath.
+site_url: https://quinguyen1502.github.io/salony/
+
+docs_dir: docs
+site_dir: site
+strict: true
+
+theme:
+  name: material
+  language: vi
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.path
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    scheme: slate
+    primary: teal
+    accent: teal
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/home-header.js
+
+copyright: Author Qui Nguyen · Copyright &copy; 2026
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: vi
+          default: true
+          name: Tiếng Việt
+          build: true
+          nav_translations:
+            Home: Trang chủ
+            Getting Started: Bắt đầu
+            User Guide: Hướng dẫn
+            Operate: Vận hành
+            How it works: Salony chạy thế nào
+            Reference: Tham chiếu
+            First launch: Lần đầu mở app
+            Create or join a store: Tạo hoặc vào tiệm
+            First day: Ngày đầu
+            Daily work: Việc hàng ngày
+            Run the day: Chạy một ngày
+            Appointments: Lịch hẹn
+            Invoices and receipts: Hóa đơn và biên lai
+            Customers and staff: Khách và nhân viên
+            Customers: Khách hàng
+            Staff: Nhân viên
+            Availability: Giờ rảnh
+            Pricing and earnings: Giá và thu nhập
+            Services and commission: Dịch vụ và hoa hồng
+            Earnings: Thu nhập và chi trả
+            Reports: Báo cáo
+            AI assistant: Trợ lý AI
+            Store settings: Cài đặt tiệm
+            Backup and recovery: Sao lưu và khôi phục
+            Devices and sync: Thiết bị và đồng bộ
+            Desktop: Máy tính bàn
+            Downloads: Tải về
+            Local-first: Local-first
+            Identity: Identity
+            Events and read models: Event và read model
+            Two devices, same edit: Hai máy sửa cùng lúc
+            AI on the device: AI chạy trên máy
+            Sync internals: Sync
+            Terminology: Thuật ngữ
+            Roles: Vai trò
+            Limits: Giới hạn
+            FAQ: Câu hỏi thường gặp
+        - locale: en
+          name: English
+          build: true
+          site_name: Salony
+          site_description: Salon operator handbook
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - start/index.md
+      - First launch: start/first-launch.md
+      - Create or join a store: start/store.md
+      - First day: start/first-day.md
+  - User Guide:
+      - guide/index.md
+      - Daily work:
+          - Run the day: guide/run-the-day.md
+          - Appointments: guide/appointments.md
+          - Invoices and receipts: guide/invoices.md
+      - Customers and staff:
+          - Customers: guide/customers.md
+          - Staff: guide/staff.md
+          - Availability: guide/schedule.md
+      - Pricing and earnings:
+          - Services and commission: guide/services.md
+          - Earnings: guide/earnings.md
+          - Reports: guide/reports.md
+      - AI assistant: guide/ai-assistant.md
+  - Operate:
+      - admin/index.md
+      - Store settings: admin/store-settings.md
+      - Backup and recovery: admin/backup.md
+      - Devices and sync: admin/devices.md
+      - Desktop: admin/desktop.md
+      - Downloads: admin/downloads.md
+  - How it works:
+      - tech/index.md
+      - Local-first: tech/local-first.md
+      - Identity: tech/identity.md
+      - Events and read models: tech/events.md
+      - Two devices, same edit: tech/concurrency.md
+      - Sync internals: tech/sync.md
+      - AI on the device: tech/on-device-ai.md
+      - Limits: tech/limits.md
+  - Reference:
+      - reference/index.md
+      - Terminology: reference/terminology.md
+      - Roles: reference/roles.md
+      - FAQ: reference/faq.md
