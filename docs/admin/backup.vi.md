@@ -11,7 +11,7 @@ Máy **Nhân viên** không có các mục sao lưu này.
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Sao lưu trong Cài đặt](../images/vi/light/settings-identity.png){ loading=lazy }
+![Sao lưu trong Cài đặt](../images/vi/light/settings-backup.png){ loading=lazy }
 <figcaption>Cài đặt → Sao lưu & khôi phục</figcaption>
 </figure>
 

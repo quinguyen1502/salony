@@ -61,6 +61,51 @@
   max-width: 100%;
 }
 
+/* A phone shot and a wide shot in the same row belong side by side. At the
+   380px height above they measure 176px + 608px + gap = 812px, wider than
+   the content column, so the pair used to wrap and the captions stacked.
+   Share the row proportionally instead, capped at the natural size. */
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) {
+  flex-wrap: nowrap;
+}
+
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) figure {
+  width: auto;
+  min-width: 0;
+}
+
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) figure > p {
+  width: 100%;
+}
+
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) img {
+  height: auto;
+  width: 100%;
+}
+
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) .shot-phone {
+  flex: 0 1 22%;
+  max-width: 176px;
+}
+
+.md-typeset .shot-row:has(.shot-phone):has(.shot-wide) .shot-wide {
+  flex: 0 1 78%;
+  max-width: 608px;
+}
+
+/* Below Material's mobile breakpoint there is no room for two. */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .shot-row:has(.shot-phone):has(.shot-wide) {
+    flex-wrap: wrap;
+  }
+
+  .md-typeset .shot-row:has(.shot-phone):has(.shot-wide) .shot-phone,
+  .md-typeset .shot-row:has(.shot-phone):has(.shot-wide) .shot-wide {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 .md-typeset .shot-phones {
   display: flex;
   flex-wrap: wrap;

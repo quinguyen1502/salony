@@ -11,7 +11,7 @@ and that device’s data is gone. **Staff** devices do not have these rows.
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Backup in Settings](../images/en/light/settings-identity.png){ loading=lazy }
+![Backup in Settings](../images/en/light/settings-backup.png){ loading=lazy }
 <figcaption>Settings → Backup & recovery</figcaption>
 </figure>
 
