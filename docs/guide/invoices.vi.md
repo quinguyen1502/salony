@@ -60,16 +60,13 @@ Sau khi duyệt, không ghi đè:
 
 ## Cấu hình
 
-**Cài đặt → Biên lai** chọn mục in (áp dụng mọi máy của tiệm). **In** xuất PDF
-/ hộp thoại in của hệ điều hành.
-
-## Giới hạn
-
-Không có in nhiệt Bluetooth trong bản này. Máy tính bàn in qua hộp thoại in của hệ điều
-hành, giống điện thoại.
+Nút **In** dưới hóa đơn, và **Cài đặt → Biên lai** quyết định in ra những gì,
+nằm ở trang riêng: [In biên lai](printing.md). Dấu **PHIẾU TẠM TÍNH** và
+**BẢN SAO** cũng giải thích ở đó.
 
 ## Trang liên quan
 
+- [In biên lai](printing.md)
 - [Lịch hẹn](appointments.md)
 - [Trợ lý AI](ai-assistant.md)
 - [Thu nhập và chi trả](earnings.md)

@@ -59,16 +59,13 @@ After approval, there is no overwrite:
 
 ## Configuration
 
-**Settings → Receipt** chooses what prints (every device of the store).
-**Print** exports a PDF / the OS print dialog.
-
-## Limitations
-
-No Bluetooth thermal printing in this build. Desktop prints through the OS
-like a phone.
+**Print** at the foot of an invoice, and what **Settings → Receipt** puts on
+the paper, have their own page: [Printing](printing.md). That is also where
+the **PROVISIONAL BILL** and **COPY** stamps are explained.
 
 ## Related pages
 
+- [Printing](printing.md)
 - [Appointments](appointments.md)
 - [AI assistant](ai-assistant.md)
 - [Earnings](earnings.md)

@@ -32,6 +32,10 @@ the app says **Requires owner or manager permission.**
   tips are not taxed.
 - **Commission settings** — default %. Order: service beats staff, staff
   beats store default.
+- **Receipt** — what a printed receipt shows, for every device of the store.
+  [Printing](../guide/printing.md) covers it.
+- **Thermal printer** — which Bluetooth printer *this device* prints to.
+  Unlike Receipt, it is not shared: each device has its own.
 - Currency: changing it only changes *display*, not numbers already frozen
   on old invoices.
 - Time zone: changing it does **not** shift existing appointment times.
@@ -48,4 +52,5 @@ bookings if the store sets **Staff bookings → Only own**.
 
 - [AI assistant](../guide/ai-assistant.md)
 - [Services and commission](../guide/services.md)
+- [Printing](../guide/printing.md)
 - [Desktop](desktop.md)

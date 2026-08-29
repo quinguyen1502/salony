@@ -25,6 +25,12 @@ desktop is the *only* device (create the store there).
 Invite as **Manager**; promote to Owner only with a reason. Windows stores
 keys per OS user.
 
+**Printing.** A desktop prints straight to a thermal printer on the salon
+network, the same as a phone does: **Settings → Thermal printer**. Bluetooth
+printers are the exception — those pair from phones and tablets only. A printer
+on USB goes through the system print dialog, which still works for every kind
+of printer. See [Printing receipts](../guide/printing.md).
+
 ## Limitations
 
 Two screens are withheld on purpose:
@@ -39,7 +45,7 @@ Two screens are withheld on purpose:
 If desktop is the only device: keep the archive **off** that PC. Restore =
 clean install.
 
-No phone-style home-screen widget. Receipts print through the OS dialog.
+No phone-style home-screen widget. No pairing a Bluetooth printer.
 
 ## Related pages
 

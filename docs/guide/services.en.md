@@ -66,7 +66,7 @@ Nails) so booking / bill forms stay short.
 
 <figure markdown>
 ![Manage categories](../images/en/light/services-categories.png){ loading=lazy }
-<figcaption>Manage categories</figcaption>
+<figcaption>Manage categories: each row carries its service count</figcaption>
 </figure>
 
 </div>

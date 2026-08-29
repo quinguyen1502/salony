@@ -32,6 +32,10 @@ Cài đặt của **Nhân viên** chỉ trên máy này: Giao diện, Ngôn ng�
   giá; tip không chịu thuế.
 - **Cài đặt hoa hồng** — % mặc định. Thứ tự ưu tiên: % đặt trên dịch vụ được
   dùng trước, rồi tới % của nhân viên, cuối cùng mới là mặc định của tiệm.
+- **Biên lai** — biên lai in ra hiện những gì, áp dụng mọi máy của tiệm. Xem
+  [In biên lai](../guide/printing.md).
+- **Máy in nhiệt** — máy này in ra máy in Bluetooth nào. Khác với Biên lai,
+  mục này không dùng chung: mỗi thiết bị có máy in riêng.
 - Tiền tệ: đổi chỉ đổi *cách hiện*, không đổi số đã chốt trên hóa đơn cũ.
 - Múi giờ: đổi **không** dịch chuyển giờ lịch hẹn đã có.
 - **Ngôn ngữ** và **Giao diện** chỉ trên **thiết bị này**.
@@ -47,4 +51,5 @@ Widget lịch chỉ điện thoại. Máy Nhân viên chỉ thấy lịch *của
 
 - [Trợ lý AI](../guide/ai-assistant.md)
 - [Dịch vụ và hoa hồng](../guide/services.md)
+- [In biên lai](../guide/printing.md)
 - [Máy tính bàn](desktop.md)

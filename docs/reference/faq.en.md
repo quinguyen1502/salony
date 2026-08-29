@@ -29,7 +29,10 @@ Short answers. Detail lives on the linked page.
 
 ??? question "Is there Bluetooth thermal printing?"
 
-    Not in this build. Receipts print through PDF / the OS dialog.
+    Yes, with a printer that speaks Bluetooth Low Energy. A printer sold as
+    "not compatible with iPhone" speaks the older Bluetooth Classic and
+    cannot be used. See [Printing](../guide/printing.md) for the models that
+    work and how to check one in a minute.
 
 ??? question "Where does the AI assistant send data?"
 

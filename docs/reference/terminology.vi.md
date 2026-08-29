@@ -38,6 +38,8 @@ Giải thích đầy đủ: [Local-first](../tech/local-first.md).
 | --- | --- |
 | lịch hẹn | Đặt, check-in, hoàn tất, hủy, không đến |
 | hóa đơn | Nháp, duyệt, hủy, hoàn tiền, in biên lai |
+| biên lai | Tờ khách giữ. In lại thì đóng dấu **BẢN SAO** |
+| phiếu tạm tính | In từ hóa đơn nháp: số phải trả, trước khi thanh toán |
 | khách | Hồ sơ khách của **tiệm này** |
 | nhân viên | Người có identity, hoặc **nhân viên ảo** |
 | sao lưu | Bạn tự xuất tệp / ghi 24 từ |

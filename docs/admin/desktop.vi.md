@@ -25,6 +25,12 @@ tính là máy *duy nhất* và bạn tạo tiệm ngay trên đó.
 Mời với vai trò **Quản lý**, chỉ nâng Chủ khi có lý do. Windows lưu khoá theo
 user đăng nhập OS.
 
+**In biên lai.** Máy tính bàn in thẳng ra máy in nhiệt nối mạng tiệm, y như
+điện thoại: **Cài đặt → Máy in nhiệt**. Máy in Bluetooth thì không, chỉ ghép
+được từ điện thoại và máy tính bảng. Máy in cắm USB thì đi qua hộp thoại in của
+hệ điều hành, và cách đó vẫn dùng được cho mọi loại máy in. Xem
+[In biên lai](../guide/printing.md).
+
 ## Giới hạn
 
 Hai màn cố ý không có:
@@ -39,7 +45,7 @@ Hai màn cố ý không có:
 Nếu máy tính là máy duy nhất, hãy cất tệp sao lưu **ở ngoài** PC đó. Khôi
 phục nghĩa là cài lại từ đầu rồi nạp tệp vào.
 
-Không có widget màn hình chính. Biên lai in qua hộp thoại in của hệ điều hành.
+Không có widget màn hình chính. Không ghép được máy in Bluetooth.
 
 ## Trang liên quan
 

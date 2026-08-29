@@ -27,7 +27,10 @@ Câu ngắn. Chi tiết nằm ở trang liên quan.
 
 ??? question "In nhiệt Bluetooth được chưa?"
 
-    Chưa. In biên lai bằng PDF / hộp thoại in của hệ điều hành.
+    Được, với máy in chạy Bluetooth Low Energy. Máy nào bán kèm dòng "không
+    hỗ trợ iPhone" là loại Bluetooth Classic đời cũ, không dùng được. Xem
+    [In biên lai](../guide/printing.md) để biết máy nào chạy và cách thử
+    trong một phút.
 
 ??? question "Trợ lý AI gửi dữ liệu đi đâu?"
 

@@ -65,6 +65,7 @@ plugins:
             Run the day: Chạy một ngày
             Appointments: Lịch hẹn
             Invoices and receipts: Hóa đơn và biên lai
+            Printing: In biên lai
             Customers and staff: Khách và nhân viên
             Customers: Khách hàng
             Staff: Nhân viên
@@ -89,6 +90,8 @@ plugins:
             Roles: Vai trò
             Limits: Giới hạn
             FAQ: Câu hỏi thường gặp
+            Privacy Policy: Chính sách quyền riêng tư
+            Terms of Service: Điều khoản sử dụng
         - locale: en
           name: English
           build: true
@@ -127,6 +130,7 @@ nav:
           - Run the day: guide/run-the-day.md
           - Appointments: guide/appointments.md
           - Invoices and receipts: guide/invoices.md
+          - Printing: guide/printing.md
       - Customers and staff:
           - Customers: guide/customers.md
           - Staff: guide/staff.md
@@ -157,3 +161,5 @@ nav:
       - Terminology: reference/terminology.md
       - Roles: reference/roles.md
       - FAQ: reference/faq.md
+      - Privacy Policy: legal/privacy.md
+      - Terms of Service: legal/terms.md

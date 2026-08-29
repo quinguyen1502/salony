@@ -64,7 +64,7 @@ Móng) để form đặt lịch / hóa đơn gọn hơn.
 
 <figure markdown>
 ![Quản lý danh mục](../images/vi/light/services-categories.png){ loading=lazy }
-<figcaption>Quản lý danh mục</figcaption>
+<figcaption>Quản lý danh mục: mỗi dòng kèm số dịch vụ đang có</figcaption>
 </figure>
 
 </div>

@@ -37,6 +37,8 @@ Full explanation: [Local-first](../tech/local-first.md).
 | --- | --- |
 | appointment / booking | Book, check in, complete, cancel, no-show |
 | invoice / bill | Draft, approve, void, refund, print receipt |
+| receipt | What the customer keeps. A reprint is stamped **COPY** |
+| provisional bill | Printed from a draft: what is owed, before payment |
 | customer | A profile that belongs to **this store** |
 | staff | A person with an identity, or a **virtual staff** profile |
 | backup | You export a file / write 24 words |
