@@ -26,8 +26,9 @@ graph TD
 và **không** sinh ra từ tên tiệm hay identity máy. Nhìn vào lưu lượng Relay
 không suy ra được đó là tiệm của ai.
 
-Che IP, che thời điểm, che kích thước gói thì Salony **không** làm. Muốn giấu
-cả những thứ đó thì đừng bật đồng bộ qua internet — cùng Wi-Fi tiệm là đủ.
+Che IP, che thời điểm, che kích thước gói thì Salony **không** làm. Bản
+1.0.0 không gửi gói qua Relay, nên những quan sát đó chưa xảy ra. Khi đồng
+bộ qua internet trở lại, không bật thì tiệm chỉ đi trên Wi-Fi.
 
 ### Thông báo
 

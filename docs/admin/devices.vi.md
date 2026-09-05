@@ -32,7 +32,6 @@ Không sao chép khoá. Nâng lên Chủ sau trong **Nhân viên** nếu cần.
 
 - **Ngoại tuyến** — máy kia chưa mở app, hoặc chưa liên lạc được
 - **Đang kết nối · Gần đây** — hai máy cùng mạng nội bộ (LAN)
-- **Đang kết nối · Internet** — [Relay](../reference/terminology.md#relay)
 
 **Ngắt kết nối** chỉ dừng đồng bộ. Nó **không** xoá người đó khỏi danh sách
 Nhân viên.
@@ -43,10 +42,11 @@ Nhân viên.
 nếu mạng chặn multicast). Điện thoại đang khoá thì không nhận được gì, vì không có hộp thư nào trên
 cloud để lấy về.
 
-### Đồng bộ qua internet
+### Bản 1.0.0 không đồng bộ qua internet
 
-**Cài đặt → Đồng bộ qua internet** = [online mode](../reference/terminology.md#online-mode)
-trên **máy này**, cho **tiệm này**. Không lan sang máy khác.
+Không có mục **Cài đặt → Đồng bộ qua internet**. Máy phải cùng Wi-Fi, hoặc
+ghép bằng QR. Tính năng đó sẽ có lại khi [Relay](../reference/terminology.md#relay)
+được host — xem [Sync](../tech/sync.md).
 
 ### Thông báo
 

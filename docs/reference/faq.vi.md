@@ -25,6 +25,12 @@ Câu ngắn. Chi tiết nằm ở trang liên quan.
     Không. Mỗi máy có identity riêng. Ghép bằng mã QR.
     Xem [Thiết bị và đồng bộ](../admin/devices.md).
 
+??? question "Hai máy khác Wi-Fi đồng bộ được không?"
+
+    Bản 1.0.0 thì không. Phải cùng Wi-Fi tiệm, hoặc QR. Đồng bộ qua internet
+    sẽ có lại khi Relay được host.
+    Xem [Thiết bị và đồng bộ](../admin/devices.md).
+
 ??? question "In nhiệt Bluetooth được chưa?"
 
     Được, với máy in chạy Bluetooth Low Energy. Máy nào bán kèm dòng "không

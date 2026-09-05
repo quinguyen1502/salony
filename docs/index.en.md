@@ -63,8 +63,8 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    On shop Wi-Fi, or over the Internet. The Relay forwards ciphertext — it
-    cannot read the salon.
+    On shop Wi-Fi (or QR). 1.0.0 does not sync over the internet. When a
+    Relay is hosted, it forwards ciphertext — it cannot read the salon.
 
     [:octicons-arrow-right-24: Devices and sync](admin/devices.md)
 

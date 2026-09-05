@@ -155,6 +155,9 @@ store, not only the one you change it on.
 - **Header text** and **Footer text** — free lines under the store name and
   at the foot, for example a thank-you.
 
+A sample receipt at the top of the screen updates as you change these,
+before you save. It is not a real invoice and does not use up the original.
+
 One **Save changes** at the bottom covers the whole screen.
 
 ## Limitations
@@ -165,9 +168,9 @@ to go through the system print dialog instead.
 The chosen printer is remembered per device. A salon with one shared network
 printer still pairs it once on each device.
 
-Salony has no preview of its own — the print dialog is the preview, and a
-thermal receipt has none at all, so use **Print a test receipt** the first
-time.
+The sample on Settings → Receipt is the template preview. A thermal printer
+still has **Print a test receipt** the first time, which times the hardware
+rather than showing the layout.
 
 The receipt language offers two options, English and Vietnamese. The reason is
 the PDF path: its font has no Chinese glyphs, so a Chinese receipt would come

@@ -151,6 +151,9 @@ cho mọi máy của tiệm.
 - **Chữ phần đầu** và **Chữ chân trang**: dòng tự do đặt dưới tên tiệm và ở
   cuối tờ, ví dụ lời cảm ơn.
 
+Một biên lai mẫu ở đầu màn hình đổi theo từng chỉnh, trước khi lưu. Đó
+không phải hóa đơn thật và không tính là bản gốc.
+
 Một nút **Lưu thay đổi** ở dưới cùng lưu cả màn hình.
 
 ## Giới hạn
@@ -161,9 +164,9 @@ qua hộp thoại in của hệ điều hành.
 Máy in đã chọn chỉ nhớ trên máy đó. Tiệm có một máy in nối mạng dùng chung thì
 mỗi máy vẫn phải tự ghép một lần.
 
-Salony không có màn hình xem trước riêng: xem trước nằm ở hộp thoại in, còn in
-nhiệt thì không có xem trước gì cả, nên lần đầu hãy dùng **In thử một biên
-lai**.
+Mẫu trên **Cài đặt → Biên lai** là xem trước template. Máy in nhiệt vẫn có
+**In thử một biên lai** lần đầu, để đo tốc độ máy chứ không phải để xem
+layout.
 
 Ngôn ngữ biên lai chỉ có hai lựa chọn: tiếng Anh hoặc tiếng Việt. Lý do nằm ở
 đường PDF, vì font nó dùng không có chữ Trung, nên một tờ biên lai tiếng Trung

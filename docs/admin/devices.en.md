@@ -34,7 +34,6 @@ Keys are not copied. Promote to Owner later in **Staff** if needed.
 
 - **Offline** — the other app is closed / unreachable
 - **Connected · Nearby** — LAN / nearby
-- **Connected · Internet** — [Relay](../reference/terminology.md#relay)
 
 **Disconnect** stops sync; it does **not** remove the person from Staff.
 
@@ -44,10 +43,12 @@ Keys are not copied. Promote to Owner later in **Staff** if needed.
 if the network blocks multicast). A locked phone does not receive a cloud
 inbox.
 
-### Sync over the internet
+### 1.0.0 does not sync over the internet
 
-**Settings → Sync over the internet** is [online mode](../reference/terminology.md#online-mode)
-on **this device**, for **this store**. It does not spread to other devices.
+There is no **Settings → Sync over the internet** control. Devices must share
+Wi-Fi, or pair with QR. That control returns when a
+[Relay](../reference/terminology.md#relay) is hosted — see
+[Sync](../tech/sync.md).
 
 ### Notifications
 

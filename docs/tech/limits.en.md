@@ -25,8 +25,10 @@ graph TD
 is **not** derived from a store or device identity. Watching Relay traffic
 does not reveal whose salon it belongs to.
 
-Hiding IPs, timing, and packet sizes is something Salony does **not** do. To
-hide those too, leave sync over the internet off — the salon Wi-Fi is enough.
+Hiding IPs, timing, and packet sizes is something Salony does **not** do.
+1.0.0 does not send traffic through a Relay, so those observations do not
+apply yet. When internet sync returns, leaving it off keeps the salon on
+Wi-Fi only.
 
 ### Notifications
 

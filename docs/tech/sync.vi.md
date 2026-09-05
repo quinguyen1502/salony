@@ -7,9 +7,12 @@ Các thiết bị đã tin cậy gửi event đã chấp nhận cho nhau. Trư�
 
 ## Tổng quan
 
-[Relay](../reference/terminology.md#relay) chỉ chuyển
-[ciphertext](../reference/terminology.md#ciphertext). Nó **không** đọc khách,
-lịch, hóa đơn.
+Bản 1.0.0 chỉ đồng bộ **Gần / LAN**. [Relay](../reference/terminology.md#relay)
+chưa mở vì chưa host. Sơ đồ dưới mô tả cơ chế sẽ trở lại, không phải nút bạn
+bấm được hôm nay.
+
+Relay chỉ chuyển [ciphertext](../reference/terminology.md#ciphertext). Nó
+**không** đọc khách, lịch, hóa đơn.
 
 ``` mermaid
 sequenceDiagram
@@ -26,14 +29,17 @@ sequenceDiagram
 ## Chi tiết kỹ thuật
 
 1. **Gần / LAN** — cùng Wi-Fi (hoặc QR khi multicast bị chặn). App đang mở.
-2. **Relay** — máy không cùng mạng. Bật **Đồng bộ qua internet** trên *từng*
-   thiết bị.
+   Đây là đường 1.0.0 dùng.
+2. **Relay** — không có trong 1.0.0. Khi được host, máy không cùng mạng bật
+   **Đồng bộ qua internet** trên *từng* thiết bị
+   ([online mode](../reference/terminology.md#online-mode)).
 3. **Không có tầng “upload tiệm lên cloud rồi tải xuống”.**
 
 Handshake Noise xảy ra **trước** khi event được giải phóng. TLS tới Relay
 không đủ: Relay kết thúc TLS.
 
-Ghép máy bằng QR. Tắt online mode trên một máy không tắt máy khác.
+Ghép máy bằng QR. Khi internet sync trở lại, tắt online mode trên một máy
+không tắt máy khác.
 
 ### Hai máy phải chứng minh mình là ai
 

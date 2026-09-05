@@ -27,6 +27,12 @@ Short answers. Detail lives on the linked page.
     No. Each device has its own identity. Pair with QR.
     See [Devices and sync](../admin/devices.md).
 
+??? question "Can two devices sync if they are not on the same Wi-Fi?"
+
+    Not in 1.0.0. They need the salon Wi-Fi, or QR. Sync over the internet
+    returns when a Relay is hosted.
+    See [Devices and sync](../admin/devices.md).
+
 ??? question "Is there Bluetooth thermal printing?"
 
     Yes, with a printer that speaks Bluetooth Low Energy. A printer sold as
