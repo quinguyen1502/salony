@@ -87,7 +87,7 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Test builds for Android, macOS, and Windows. Not on the app stores yet.
+    Test build for Android. Windows when posted. No macOS or iOS yet.
 
     [:octicons-arrow-right-24: Downloads](admin/downloads.md)
 
