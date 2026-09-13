@@ -88,7 +88,7 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Bản thử cho Android. Windows khi đăng. Chưa có macOS và iOS.
+    Bản thử cho Android và Windows. Chưa có macOS và iOS.
 
     [:octicons-arrow-right-24: Tải về](admin/downloads.md)
 
