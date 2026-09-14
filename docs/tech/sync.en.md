@@ -7,7 +7,7 @@ Trusted devices exchange accepted events, inside an
 
 ## Overview
 
-1.0.0 syncs **Nearby / LAN** only. The
+1.1.0 syncs **Nearby / LAN** only. The
 [Relay](../reference/terminology.md#relay) is not hosted, so it is not
 offered. The diagram below is the mechanism that will return — not a
 control you can turn on today.
@@ -30,8 +30,8 @@ sequenceDiagram
 ## Technical details
 
 1. **Nearby / LAN** — same Wi-Fi (or QR when multicast is blocked). App
-   open. This is the 1.0.0 path.
-2. **Relay** — not in 1.0.0. When hosted, devices not on the same network
+   open. This is the 1.1.0 path.
+2. **Relay** — not in 1.1.0. When hosted, devices not on the same network
    turn on **Sync over the internet** on *each* device
    ([online mode](../reference/terminology.md#online-mode)).
 3. **There is no “upload the salon to a cloud then download” layer.**

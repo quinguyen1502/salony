@@ -21,6 +21,10 @@ In ra tờ gì là do trạng thái hóa đơn quyết định, không phải do
 Hóa đơn đã hủy hoặc đã hoàn tiền còn in kèm dòng **ĐÃ HỦY**, **ĐÃ HOÀN TIỀN**
 hoặc **ĐÃ HOÀN MỘT PHẦN**, để tờ giấy khớp với sổ sách.
 
+Phí thêm đã áp in thành dòng riêng, dùng tên lưu trên hóa đơn, rồi tới tổng.
+Phí đã miễn hoặc bằng 0 thì không in, giống tip bằng 0. Tờ giấy không gọi đó
+là phí ngân hàng hay phí máy thẻ.
+
 !!! warning "Vì sao bản in lại bị đóng dấu"
 
     Một bản in lại không đánh dấu có thể bị mang tới đòi hoàn tiền lần thứ

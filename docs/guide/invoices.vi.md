@@ -5,7 +5,8 @@ Lập nháp, duyệt, in biên lai. Nhân viên tạo nháp; Chủ / Quản lý 
 ## Tổng quan
 
 Màn **Hóa đơn** (Chủ / Quản lý) hoặc **Hóa đơn của tôi** (Nhân viên). Khi
-duyệt, giá, thuế, hoa hồng **khóa lại**, nên đổi giá sau không đụng hóa đơn cũ.
+duyệt, giá, thuế, phí thêm, hoa hồng **khóa lại**, nên đổi giá sau không đụng
+hóa đơn cũ.
 
 <div class="shot-row" markdown>
 
@@ -27,7 +28,14 @@ duyệt, giá, thuế, hoa hồng **khóa lại**, nên đổi giá sau không �
 
 - Khách tuỳ chọn (để trống nếu là khách vãng lai)
 - Nhân viên và dịch vụ
-- Giảm giá, thuế (mặc định tiệm nếu bật), tip, phương thức thanh toán
+- Giảm giá, thuế (mặc định tiệm nếu bật), tip, phí thêm, phương thức thanh
+  toán
+
+Phí thêm là khoản tiệm cộng vào hóa đơn: không phải dịch vụ, không phải
+thuế, không phải phí ngân hàng. Bật ở **Cài đặt → Hóa đơn → Phí thêm** (ngay
+sau Cài đặt thuế). Mặc định tắt. Dòng Card fee áp khi thanh toán thẻ. Trên
+nháp có thể miễn cho hóa đơn đó. Biên lai in tên đã lưu và số tiền, rồi tới
+tổng.
 
 !!! tip "Giọng nói trên điện thoại"
 
@@ -67,6 +75,7 @@ nằm ở trang riêng: [In biên lai](printing.md). Dấu **PHIẾU TẠM TÍNH
 ## Trang liên quan
 
 - [In biên lai](printing.md)
+- [Cài đặt tiệm](../admin/store-settings.md)
 - [Lịch hẹn](appointments.md)
 - [Trợ lý AI](ai-assistant.md)
 - [Thu nhập và chi trả](earnings.md)

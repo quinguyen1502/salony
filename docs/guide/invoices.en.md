@@ -4,7 +4,8 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 
 ## Overview
 
-**Bills** / **My Bills**. On approve, price, tax, and commission **freeze**.
+**Bills** / **My Bills**. On approve, price, tax, extra fees, and commission
+**freeze**.
 
 <div class="shot-row" markdown>
 
@@ -26,7 +27,13 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 
 - Optional customer (walk-in if empty)
 - Staff and services
-- Discount, tax (store default if enabled), tip, payment method
+- Discount, tax (store default if enabled), tip, extra fees, payment method
+
+An extra fee is a store add-on — not a service, not tax, not a bank charge.
+Turn it on in **Settings → Billing → Extra fees** (the row after Tax). It is
+off until you enable one. A Card fee applies when the bill is Card. On a
+draft you can waive it for that bill. The receipt prints the stored name
+and amount, then the total.
 
 !!! tip "Voice on a phone"
 
@@ -66,6 +73,7 @@ the **PROVISIONAL BILL** and **COPY** stamps are explained.
 ## Related pages
 
 - [Printing](printing.md)
+- [Store settings](../admin/store-settings.md)
 - [Appointments](appointments.md)
 - [AI assistant](ai-assistant.md)
 - [Earnings](earnings.md)

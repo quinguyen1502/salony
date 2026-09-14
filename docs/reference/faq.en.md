@@ -29,7 +29,7 @@ Short answers. Detail lives on the linked page.
 
 ??? question "Can two devices sync if they are not on the same Wi-Fi?"
 
-    Not in 1.0.0. They need the salon Wi-Fi, or QR. Sync over the internet
+    Not in 1.1.0. They need the salon Wi-Fi, or QR. Sync over the internet
     returns when a Relay is hosted.
     See [Devices and sync](../admin/devices.md).
 

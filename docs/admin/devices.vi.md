@@ -42,7 +42,7 @@ Nhân viên.
 nếu mạng chặn multicast). Điện thoại đang khoá thì không nhận được gì, vì không có hộp thư nào trên
 cloud để lấy về.
 
-### Bản 1.0.0 không đồng bộ qua internet
+### Bản 1.1.0 không đồng bộ qua internet
 
 Không có mục **Cài đặt → Đồng bộ qua internet**. Máy phải cùng Wi-Fi, hoặc
 ghép bằng QR. Tính năng đó sẽ có lại khi [Relay](../reference/terminology.md#relay)

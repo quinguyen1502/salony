@@ -21,6 +21,10 @@ Which document you get depends on the invoice, not on a menu:
 A voided or refunded invoice also carries **VOIDED**, **REFUNDED** or
 **PARTIALLY REFUNDED** across it, so the paper matches the record.
 
+Applied extra fees print as their own lines, using the name stored on the
+bill, then the total. A waived or zero fee is omitted, like a zero tip. The
+paper does not call it a bank or card-processor fee.
+
 !!! warning "Why reprints are stamped"
 
     An unmarked reprint can be brought back to claim a second refund. Only

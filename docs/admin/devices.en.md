@@ -43,7 +43,7 @@ Keys are not copied. Promote to Owner later in **Staff** if needed.
 if the network blocks multicast). A locked phone does not receive a cloud
 inbox.
 
-### 1.0.0 does not sync over the internet
+### 1.1.0 does not sync over the internet
 
 There is no **Settings → Sync over the internet** control. Devices must share
 Wi-Fi, or pair with QR. That control returns when a
