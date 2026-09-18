@@ -24,8 +24,8 @@ và nhóm dịch vụ theo loại khi đặt lịch hay lập hóa đơn.
 SHA-256:
 
 ```
-bf656f74043ad7e3c8c36dd593c150e1c705f140d4217f1dbb2a319be1e2170a  salony-1.1.0-android-arm64.apk
-b5168300b51ef5f0b83564e647a806afa29753ceb13ef3c5ab86a307aed274fe  salony-1.1.0-windows.exe
+e59dad311add0c6d449ff04835a146ba416246346a2b0f345b6b7510d31ef6a0  salony-1.1.0-android-arm64.apk
+916fc3df1668998cd13d7d66a2249451ff38f9937cb9caa5890bdb1895acedf3  salony-1.1.0-windows.exe
 ```
 
 Hiện chưa có bản macOS trên trang này.
