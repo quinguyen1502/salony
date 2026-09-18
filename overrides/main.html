@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {#- Run before first paint so a Vietnamese browser does not flash English. -#}
+  <script src="{{ 'javascripts/prefer-language.js' | url }}"></script>
+{% endblock %}

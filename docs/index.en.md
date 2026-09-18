@@ -34,7 +34,7 @@ Salon software on your phone and computer. Appointments, invoices, and
 customers stay **on your device** — not in the cloud.
 
 [Get started](start/index.md){ .md-button .md-button--primary }
-[How it works](tech/index.md){ .home-text-button }
+[Download](admin/downloads.md){ .home-text-button }
 
 </div>
 

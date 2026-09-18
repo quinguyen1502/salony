@@ -3,17 +3,19 @@
 {% set loc = i18n_page_locale | default(config.theme.language) %}
 <nav class="footer-help" aria-label="{% if loc == 'en' %}Help{% else %}Trợ giúp{% endif %}">
   {% if loc == 'en' %}
-    <a href="{{ 'en/admin/downloads/' | url }}">Downloads</a>
-    <a href="{{ 'en/reference/faq/' | url }}">FAQ</a>
-    <a href="{{ 'en/tech/limits/' | url }}">Limits</a>
-    <a href="{{ 'en/admin/backup/' | url }}">Backup</a>
-    <a href="{{ 'en/reference/terminology/' | url }}">Terminology</a>
-  {% else %}
-    <a href="{{ 'admin/downloads/' | url }}">Tải về</a>
+    <a href="{{ 'admin/downloads/' | url }}">Downloads</a>
     <a href="{{ 'reference/faq/' | url }}">FAQ</a>
-    <a href="{{ 'tech/limits/' | url }}">Giới hạn</a>
-    <a href="{{ 'admin/backup/' | url }}">Sao lưu</a>
-    <a href="{{ 'reference/terminology/' | url }}">Thuật ngữ</a>
+    <a href="{{ 'tech/limits/' | url }}">Limits</a>
+    <a href="{{ 'admin/backup/' | url }}">Backup</a>
+    <a href="{{ 'reference/terminology/' | url }}">Terminology</a>
+    <a href="https://github.com/quinguyen1502/salony" target="_blank" rel="noopener">GitHub</a>
+  {% else %}
+    <a href="{{ 'vi/admin/downloads/' | url }}">Tải về</a>
+    <a href="{{ 'vi/reference/faq/' | url }}">FAQ</a>
+    <a href="{{ 'vi/tech/limits/' | url }}">Giới hạn</a>
+    <a href="{{ 'vi/admin/backup/' | url }}">Sao lưu</a>
+    <a href="{{ 'vi/reference/terminology/' | url }}">Thuật ngữ</a>
+    <a href="https://github.com/quinguyen1502/salony" target="_blank" rel="noopener">GitHub</a>
   {% endif %}
 </nav>
 <div class="md-copyright">

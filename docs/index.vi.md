@@ -34,7 +34,7 @@ App chạy tiệm trên điện thoại và máy tính. Lịch hẹn, hóa đơn
 lưu **trên máy bạn**, không đưa lên cloud.
 
 [Bắt đầu](start/index.md){ .md-button .md-button--primary }
-[Salony chạy thế nào](tech/index.md){ .home-text-button }
+[Tải về](admin/downloads.md){ .home-text-button }
 
 </div>
 

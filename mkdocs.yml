@@ -1,10 +1,14 @@
 site_name: Salony
-site_description: Handbook vận hành tiệm
+site_description: Salon operator handbook
 
 # Required for canonical tags, a real sitemap, and the language
 # switcher: mkdocs-static-i18n derives its base path from this. Unset,
-# it emits absolute `/` and `/en/`, which miss the Pages subpath.
+# it emits absolute `/` and `/vi/`, which miss the Pages subpath.
 site_url: https://quinguyen1502.github.io/salony/
+repo_url: https://github.com/quinguyen1502/salony
+repo_name: GitHub
+# The public repo is a generated mirror. Edits belong in salony-app.
+edit_uri: ""
 
 docs_dir: docs
 site_dir: site
@@ -12,7 +16,7 @@ strict: true
 
 theme:
   name: material
-  language: vi
+  language: en
   logo: assets/logo.png
   favicon: assets/logo.png
   custom_dir: overrides
@@ -47,10 +51,15 @@ plugins:
       fallback_to_default: true
       reconfigure_material: true
       languages:
-        - locale: vi
+        - locale: en
           default: true
+          name: English
+          build: true
+        - locale: vi
           name: Tiếng Việt
           build: true
+          site_name: Salony
+          site_description: Handbook vận hành tiệm
           nav_translations:
             Home: Trang chủ
             Getting Started: Bắt đầu
@@ -92,11 +101,6 @@ plugins:
             FAQ: Câu hỏi thường gặp
             Privacy Policy: Chính sách quyền riêng tư
             Terms of Service: Điều khoản sử dụng
-        - locale: en
-          name: English
-          build: true
-          site_name: Salony
-          site_description: Salon operator handbook
 
 markdown_extensions:
   - admonition
