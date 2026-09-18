@@ -11,12 +11,7 @@ có dùng luôn hay tạo mới (không gộp tự động).
 
 <figure class="shot-phone" markdown>
 ![Khách hàng trên điện thoại](../images/vi/light/customers.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Khách hàng trên máy tính bảng](../images/vi/light/customers-wide.png){ loading=lazy }
-<figcaption>Danh sách và hồ sơ trên máy tính bảng</figcaption>
+<figcaption>Khách hàng</figcaption>
 </figure>
 
 </div>

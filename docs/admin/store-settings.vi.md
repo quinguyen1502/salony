@@ -12,12 +12,7 @@ sẽ báo **Cần quyền chủ tiệm hoặc quản lý.**
 
 <figure class="shot-phone" markdown>
 ![Cài đặt trên điện thoại](../images/vi/light/settings.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Cài đặt trên máy tính bảng](../images/vi/light/settings-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Cài đặt</figcaption>
 </figure>
 
 </div>

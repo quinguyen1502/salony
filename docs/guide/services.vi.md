@@ -12,12 +12,7 @@ CSV. Nhân viên chỉ dùng danh sách khi lập hóa đơn nháp, không sửa
 
 <figure class="shot-phone" markdown>
 ![Dịch vụ trên điện thoại](../images/vi/light/services.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Dịch vụ trên máy tính bảng](../images/vi/light/services-wide.png){ loading=lazy }
-<figcaption>Danh sách và chi tiết trên máy tính bảng</figcaption>
+<figcaption>Dịch vụ</figcaption>
 </figure>
 
 </div>
@@ -38,12 +33,7 @@ CSV. Nhân viên chỉ dùng danh sách khi lập hóa đơn nháp, không sửa
 
 <figure class="shot-phone" markdown>
 ![Form dịch vụ mới](../images/vi/light/services-form.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Form dịch vụ trên máy tính bảng](../images/vi/light/services-form-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Dịch vụ mới</figcaption>
 </figure>
 
 </div>

@@ -18,9 +18,18 @@ Máy tính có identity riêng và đồng bộ giống điện thoại.
 
 ## Cách làm
 
-Desktop **hiện QR**; điện thoại chủ **quét**. Desktop không cần camera.
-**Không có điện thoại của Chủ tiệm thì không kết nạp được PC**, trừ khi máy
-tính là máy *duy nhất* và bạn tạo tiệm ngay trên đó.
+Máy tính bàn mời được máy khác, không cần camera. Trên máy mới, mở
+**Cài đặt → Danh tính thiết bị** và giữ màn đó trên Wi-Fi này. Trên PC:
+**Cài đặt → Thêm thiết bị khác** (hoặc **Nhân viên → Thêm nhân viên →
+Mời nhân viên**), bấm tên trong **Thiết bị gần đây**, đối chiếu mã 6 số
+trên cả hai màn, rồi gửi.
+
+PC vẫn **hiện QR** trên Danh tính thiết bị, để điện thoại quét được máy
+này. **Quét thiết bị kia** / **Quét QR** bị ẩn trên Mac và Windows.
+
+Nếu **Thiết bị gần đây** trống, mạng đang chặn multicast. Lúc đó quét QR
+từ điện thoại. PC không tự quét được. Nếu PC này là máy *duy nhất*, tạo
+tiệm ngay trên đó.
 
 Mời với vai trò **Quản lý**, chỉ nâng Chủ khi có lý do. Windows lưu khoá theo
 user đăng nhập OS.

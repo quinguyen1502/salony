@@ -24,13 +24,19 @@ Short answers. Detail lives on the linked page.
 
 ??? question "Is adding a device the same as logging into one account?"
 
-    No. Each device has its own identity. Pair with QR.
+    No. Each device has its own identity. Pair from **Nearby devices**, or
+    scan QR. See [Devices and sync](../admin/devices.md).
+
+??? question "The other device does not appear nearby?"
+
+    Open **Settings → Device identity** on that device, join this Wi-Fi,
+    or scan its QR. A Mac or PC cannot scan; it picks from the list.
     See [Devices and sync](../admin/devices.md).
 
 ??? question "Can two devices sync if they are not on the same Wi-Fi?"
 
-    Not in 1.1.0. They need the salon Wi-Fi, or QR. Sync over the internet
-    returns when a Relay is hosted.
+    Not in 1.1.0. They need the salon Wi-Fi. Pair nearby or with QR. Sync
+    over the internet returns when a Relay is hosted.
     See [Devices and sync](../admin/devices.md).
 
 ??? question "Is there Bluetooth thermal printing?"

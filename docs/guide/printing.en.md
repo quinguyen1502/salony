@@ -8,6 +8,15 @@ What comes out of the printer, and what decides it.
 out: as a PDF through your device's own print dialog, which needs no setup at
 all, or straight to a Bluetooth thermal printer you have paired with Salony.
 
+<div class="shot-row" markdown>
+
+<figure class="shot-phone" markdown>
+![Invoice with Print](../images/en/light/bills-detail.png){ loading=lazy }
+<figcaption>Print at the foot of an invoice</figcaption>
+</figure>
+
+</div>
+
 ## Usage
 
 Which document you get depends on the invoice, not on a menu:

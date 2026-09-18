@@ -11,12 +11,7 @@ appointments.
 
 <figure class="shot-phone" markdown>
 ![Bookings on a phone](../images/en/light/bookings.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Bookings on a tablet](../images/en/light/bookings-wide.png){ loading=lazy }
-<figcaption>List and detail on tablet</figcaption>
+<figcaption>Bookings</figcaption>
 </figure>
 
 </div>

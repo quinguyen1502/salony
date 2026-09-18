@@ -11,12 +11,7 @@ automatic merge).
 
 <figure class="shot-phone" markdown>
 ![Customers on a phone](../images/en/light/customers.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Customers on a tablet](../images/en/light/customers-wide.png){ loading=lazy }
-<figcaption>List and profile on tablet</figcaption>
+<figcaption>Customers</figcaption>
 </figure>
 
 </div>

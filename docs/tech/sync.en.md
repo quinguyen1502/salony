@@ -39,8 +39,10 @@ sequenceDiagram
 The Noise handshake happens **before** events are released. TLS to Relay is
 not enough: Relay terminates TLS.
 
-Pair with QR. When internet sync returns, turning online mode off on one
-device does not turn it off on another.
+Pair from **Nearby devices** on the same Wi-Fi: both screens show a
+six-digit code, then the invitation is sent. Scan QR when the list is
+empty (multicast blocked). When internet sync returns, turning online
+mode off on one device does not turn it off on another.
 
 ### Both devices must prove who they are
 

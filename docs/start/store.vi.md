@@ -11,12 +11,7 @@ mời / thêm thiết bị.
 
 <figure class="shot-phone" markdown>
 ![Chọn tiệm trên điện thoại](../images/vi/light/stores.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Chọn tiệm trên máy tính](../images/vi/light/stores-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Chọn tiệm</figcaption>
 </figure>
 
 </div>
@@ -32,10 +27,12 @@ mời / thêm thiết bị.
 
 === "Vào tiệm có sẵn"
 
-    1. Trên máy mới: **Cài đặt → Danh tính thiết bị** (hoặc màn chào) để hiện
-       mã QR.
-    2. Trên máy của Chủ tiệm hoặc Quản lý: **Nhân viên → Mời**, quét mã QR đó,
-       chọn vai trò rồi gửi.
+    1. Trên máy mới: **Cài đặt → Danh tính thiết bị** (hoặc màn chào). Giữ
+       màn này mở.
+    2. Trên máy của Chủ tiệm hoặc Quản lý: **Nhân viên → Thêm nhân viên →
+       Mời nhân viên**. Trong **Thiết bị gần đây**, bấm tên, đối chiếu mã
+       6 số trên cả hai màn, chọn vai trò rồi gửi. Không thấy tên thì
+       **Quét QR**.
     3. Máy mới bấm **Nhận lời mời**.
 
     Muốn thêm máy thứ hai cho chính mình (iPad chẳng hạn) thì trên máy của Chủ

@@ -11,12 +11,7 @@ by invitation / add-device.
 
 <figure class="shot-phone" markdown>
 ![Select store on a phone](../images/en/light/stores.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Select store on a computer](../images/en/light/stores-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Select store</figcaption>
 </figure>
 
 </div>
@@ -33,8 +28,11 @@ by invitation / add-device.
 
 === "Join an existing store"
 
-    1. New device: **Settings → Device identity** (or Welcome) — show the QR.
-    2. Owner/manager: **Staff → Invite**, scan the QR, pick a role, send.
+    1. New device: **Settings → Device identity** (or Welcome). Keep that
+       screen open.
+    2. Owner/manager: **Staff → Add staff → Invite staff**. Under
+       **Nearby devices**, tap the name, confirm the six-digit code on
+       both screens, pick a role, send. If it is not listed, **Scan QR**.
     3. New device **Accept invitation**.
 
     Or **Add another device** on the owner device — iPad / second phone,

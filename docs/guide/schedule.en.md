@@ -11,12 +11,7 @@ whether a staff member is free.
 
 <figure class="shot-phone" markdown>
 ![Calendar on a phone](../images/en/light/calendar.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Calendar on a tablet](../images/en/light/calendar-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Calendar</figcaption>
 </figure>
 
 </div>

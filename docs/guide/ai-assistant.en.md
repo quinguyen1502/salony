@@ -11,12 +11,7 @@ The internet is used only to **download a model**.
 
 <figure class="shot-phone" markdown>
 ![AI assistant on a phone](../images/en/light/ai-settings.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![AI assistant on a computer](../images/en/light/ai-settings-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>AI assistant</figcaption>
 </figure>
 
 </div>

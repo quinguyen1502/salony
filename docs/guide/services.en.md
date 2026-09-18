@@ -13,12 +13,7 @@ do not edit the catalog.
 
 <figure class="shot-phone" markdown>
 ![Services on a phone](../images/en/light/services.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Services on a tablet](../images/en/light/services-wide.png){ loading=lazy }
-<figcaption>List and detail on tablet</figcaption>
+<figcaption>Services</figcaption>
 </figure>
 
 </div>
@@ -39,12 +34,7 @@ do not edit the catalog.
 
 <figure class="shot-phone" markdown>
 ![New service form](../images/en/light/services-form.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Service form on a tablet](../images/en/light/services-form-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>New service</figcaption>
 </figure>
 
 </div>

@@ -11,17 +11,17 @@ hide:
 
 <figure class="device device--phone" markdown>
 ![Salony on a phone](images/en/light/home.png)
-<figcaption>Phone</figcaption>
+<figcaption>Phone · Home</figcaption>
 </figure>
 
 <figure class="device device--tablet" markdown>
-![Salony on a tablet](images/en/light/home-wide.png)
-<figcaption>Tablet</figcaption>
+![Salony on a tablet](images/en/light/bookings-wide.png)
+<figcaption>Tablet · Bookings</figcaption>
 </figure>
 
 <figure class="device device--laptop" markdown>
-![Salony on a laptop](images/en/light/home-wide.png)
-<figcaption>Laptop</figcaption>
+![Salony on a laptop](images/en/light/bills-wide.png)
+<figcaption>Laptop · Bills</figcaption>
 </figure>
 
 </div>
@@ -72,8 +72,8 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Each device has its own **identity**. Pair with a QR code. No email, no
-    password.
+    Each device has its own **identity**. Pair from Nearby devices, or scan
+    a QR. No email, no password.
 
     [:octicons-arrow-right-24: Identity](tech/identity.md)
 
@@ -132,7 +132,7 @@ Appointments, invoices, and customers live here. Works offline.
 
 <div class="how-diagram__path" markdown>
 
-**Pair with QR**
+**Pair nearby or with QR**
 
 Wi-Fi or the Internet · end-to-end encrypted
 

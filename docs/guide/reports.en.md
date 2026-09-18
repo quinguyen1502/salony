@@ -11,12 +11,7 @@ the store.
 
 <figure class="shot-phone" markdown>
 ![Reports on a phone](../images/en/light/reports.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Reports on a tablet](../images/en/light/reports-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Reports</figcaption>
 </figure>
 
 </div>

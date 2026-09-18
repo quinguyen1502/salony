@@ -20,11 +20,20 @@ nhau, không đưa tiệm lên cloud rồi tải xuống.
 
 ### Thêm thiết bị khác
 
-Trên máy đang là Chủ:
+Hai máy, cùng Wi-Fi tiệm, cùng lúc. Trên máy đã là Chủ tiệm:
 
-1. **Cài đặt → Thêm thiết bị khác**.
-2. Máy kia: **Cài đặt → Danh tính thiết bị**, hiện QR.
-3. **Quét thiết bị kia**, đặt tên, gửi lời mời. Mặc định **Quản lý**.
+1. Máy mới: **Cài đặt → Danh tính thiết bị**. Giữ màn này mở.
+2. Máy Chủ: **Cài đặt → Thêm thiết bị khác**.
+3. Trong **Thiết bị gần đây**, bấm tên máy kia. Hai màn hiện mã 6 số.
+   Trùng thì bấm **Trùng mã** trên cả hai máy.
+4. Đặt tên, rồi **Gửi lời mời**. Mặc định **Quản lý**.
+5. Máy mới bấm **Nhận lời mời**. Trùng mã chưa vào tiệm; nhận lời mời mới
+   vào.
+
+Nếu **Thiết bị gần đây** trống: máy kia chưa mở Danh tính thiết bị, khác
+Wi-Fi, hoặc mạng chặn multicast. Điện thoại vẫn **Quét thiết bị kia**.
+Máy tính bàn không có nút quét. Mạng chặn multicast thì quét QR từ điện
+thoại.
 
 Không sao chép khoá. Nâng lên Chủ sau trong **Nhân viên** nếu cần.
 
@@ -44,8 +53,9 @@ cloud để lấy về.
 
 ### Bản 1.1.0 không đồng bộ qua internet
 
-Không có mục **Cài đặt → Đồng bộ qua internet**. Máy phải cùng Wi-Fi, hoặc
-ghép bằng QR. Tính năng đó sẽ có lại khi [Relay](../reference/terminology.md#relay)
+Không có mục **Cài đặt → Đồng bộ qua internet**. Máy phải cùng Wi-Fi. Ghép
+từ **Thiết bị gần đây**, hoặc quét QR khi danh sách trống. Tính năng đó
+sẽ có lại khi [Relay](../reference/terminology.md#relay)
 được host — xem [Sync](../tech/sync.md).
 
 ### Thông báo

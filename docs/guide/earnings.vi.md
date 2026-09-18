@@ -11,12 +11,7 @@ nhập của tôi**. Số lấy từ lúc duyệt hóa đơn, không tính lại
 
 <figure class="shot-phone" markdown>
 ![Thu nhập trên điện thoại](../images/vi/light/earnings.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Thu nhập trên máy tính bảng](../images/vi/light/earnings-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Thu nhập</figcaption>
 </figure>
 
 </div>

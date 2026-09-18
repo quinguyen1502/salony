@@ -12,12 +12,7 @@ says **Requires owner or manager permission.**
 
 <figure class="shot-phone" markdown>
 ![Settings on a phone](../images/en/light/settings.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Settings on a tablet](../images/en/light/settings-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Settings</figcaption>
 </figure>
 
 </div>

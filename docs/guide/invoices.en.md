@@ -11,12 +11,7 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 
 <figure class="shot-phone" markdown>
 ![Bills on a phone](../images/en/light/bills.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Bills on a tablet](../images/en/light/bills-wide.png){ loading=lazy }
-<figcaption>List and detail on tablet</figcaption>
+<figcaption>Bills</figcaption>
 </figure>
 
 </div>

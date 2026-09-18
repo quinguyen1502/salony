@@ -12,12 +12,7 @@ Màn **Đặt lịch** (Chủ / Quản lý) hoặc **Lịch của tôi** (Nhân 
 
 <figure class="shot-phone" markdown>
 ![Đặt lịch trên điện thoại](../images/vi/light/bookings.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Đặt lịch trên máy tính bảng](../images/vi/light/bookings-wide.png){ loading=lazy }
-<figcaption>Danh sách và chi tiết trên máy tính bảng</figcaption>
+<figcaption>Đặt lịch</figcaption>
 </figure>
 
 </div>

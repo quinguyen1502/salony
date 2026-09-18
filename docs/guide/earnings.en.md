@@ -11,12 +11,7 @@ Figures come from the snapshot at approve — not the *current* %.
 
 <figure class="shot-phone" markdown>
 ![Earnings on a phone](../images/en/light/earnings.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Earnings on a tablet](../images/en/light/earnings-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Earnings</figcaption>
 </figure>
 
 </div>

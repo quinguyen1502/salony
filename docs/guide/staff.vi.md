@@ -12,12 +12,7 @@ trò và chỉnh **Lịch nhân viên**.
 
 <figure class="shot-phone" markdown>
 ![Nhân viên trên điện thoại](../images/vi/light/staff.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Nhân viên trên máy tính bảng](../images/vi/light/staff-wide.png){ loading=lazy }
-<figcaption>Danh sách và hồ sơ trên máy tính bảng</figcaption>
+<figcaption>Nhân viên</figcaption>
 </figure>
 
 </div>
@@ -53,22 +48,21 @@ Mở **Nhân viên**, bấm **+** / **Thêm nhân viên**. Có hai lựa chọn:
 
 Hai máy, cùng lúc:
 
-1. **Máy họ:** **Cài đặt → Danh tính thiết bị** — hiện QR. Giữ màn này mở.
+1. **Máy họ:** **Cài đặt → Danh tính thiết bị**. Giữ màn này mở.
 2. **Máy bạn:** **Nhân viên → Thêm nhân viên → Mời nhân viên**.
-3. **Quét QR**, hoặc dán ID thiết bị.
+3. Trong **Thiết bị gần đây**, bấm tên họ. Hai màn hiện mã 6 số; bấm
+   **Trùng mã** trên cả hai. Không thấy tên thì **Quét QR**. Chỉ dán ID
+   thiết bị thì chưa gửi được trên Wi-Fi này.
 4. Tên hiển thị tuỳ chọn. **Vai trò** bắt buộc: **Nhân viên** hoặc **Quản lý**.
 5. **Mời**. Họ chấp nhận trên máy họ.
+
+Trên Mac hoặc PC, **Quét QR** bị ẩn. Chọn từ **Thiết bị gần đây**.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Form mời nhân viên](../images/vi/light/staff-invite.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Mời trên máy tính bảng](../images/vi/light/staff-invite-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Mời nhân viên</figcaption>
 </figure>
 
 </div>

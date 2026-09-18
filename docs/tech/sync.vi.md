@@ -38,8 +38,9 @@ sequenceDiagram
 Handshake Noise xảy ra **trước** khi event được giải phóng. TLS tới Relay
 không đủ: Relay kết thúc TLS.
 
-Ghép máy bằng QR. Khi internet sync trở lại, tắt online mode trên một máy
-không tắt máy khác.
+Ghép từ **Thiết bị gần đây** trên cùng Wi-Fi: hai màn hiện mã 6 số, rồi
+mới gửi lời mời. Danh sách trống (multicast bị chặn) thì quét QR. Khi
+internet sync trở lại, tắt online mode trên một máy không tắt máy khác.
 
 ### Hai máy phải chứng minh mình là ai
 

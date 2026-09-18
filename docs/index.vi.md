@@ -11,17 +11,17 @@ hide:
 
 <figure class="device device--phone" markdown>
 ![Salony trên điện thoại](images/vi/light/home.png)
-<figcaption>Điện thoại</figcaption>
+<figcaption>Điện thoại · Home</figcaption>
 </figure>
 
 <figure class="device device--tablet" markdown>
-![Salony trên máy tính bảng](images/vi/light/home-wide.png)
-<figcaption>Tablet</figcaption>
+![Salony trên máy tính bảng](images/vi/light/bookings-wide.png)
+<figcaption>Tablet · Đặt lịch</figcaption>
 </figure>
 
 <figure class="device device--laptop" markdown>
-![Salony trên laptop](images/vi/light/home-wide.png)
-<figcaption>Laptop</figcaption>
+![Salony trên laptop](images/vi/light/bills-wide.png)
+<figcaption>Laptop · Hóa đơn</figcaption>
 </figure>
 
 </div>
@@ -73,8 +73,8 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Mỗi máy có **identity** riêng. Ghép máy bằng mã QR. Không email, không
-    mật khẩu.
+    Mỗi máy có **identity** riêng. Ghép từ Thiết bị gần đây, hoặc quét QR.
+    Không email, không mật khẩu.
 
     [:octicons-arrow-right-24: Identity](tech/identity.md)
 
@@ -131,7 +131,7 @@ Lịch, hóa đơn, khách ghi trên máy này. Mất mạng vẫn chạy.
 
 <div class="how-diagram__path" markdown>
 
-**Ghép QR**
+**Ghép gần đây hoặc QR**
 
 Wi-Fi hoặc Internet · mã hoá đầu cuối
 
@@ -141,7 +141,7 @@ Wi-Fi hoặc Internet · mã hoá đầu cuối
 
 :material-tablet: **Máy đã ghép**
 
-Chưa ghép QR thì máy kia không đọc được gì.
+Chưa ghép thì máy kia không đọc được gì.
 
 </div>
 

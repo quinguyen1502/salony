@@ -8,6 +8,15 @@ Nút **In** nằm dưới cùng mỗi hóa đơn. Có hai đường ra: xuất P
 hộp thoại in của máy, cách này không cần cài gì; hoặc gửi thẳng tới máy in
 nhiệt bạn đã ghép với Salony, qua Bluetooth hoặc qua mạng của tiệm.
 
+<div class="shot-row" markdown>
+
+<figure class="shot-phone" markdown>
+![Hóa đơn với nút In](../images/vi/light/bills-detail.png){ loading=lazy }
+<figcaption>Nút In dưới cùng hóa đơn</figcaption>
+</figure>
+
+</div>
+
 ## Cách làm
 
 In ra tờ gì là do trạng thái hóa đơn quyết định, không phải do bạn chọn:

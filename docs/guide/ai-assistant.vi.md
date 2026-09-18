@@ -11,12 +11,7 @@ Internet chỉ cần lúc **tải mô hình** về máy.
 
 <figure class="shot-phone" markdown>
 ![Trợ lý AI trên điện thoại](../images/vi/light/ai-settings.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Trợ lý AI trên máy tính](../images/vi/light/ai-settings-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Trợ lý AI</figcaption>
 </figure>
 
 </div>

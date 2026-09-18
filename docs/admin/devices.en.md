@@ -21,12 +21,21 @@ trusted devices — it does not upload the salon to a cloud.
 
 ### Add another device
 
-On a device that is already Owner:
+Two devices, on the salon Wi-Fi, at the same time. On a device that is
+already Owner:
 
-1. **Settings → Add another device**.
-2. The other device: **Settings → Device identity**, show the QR.
-3. **Scan the other device**, name it, send the invite. Default role
-   **Manager**.
+1. New device: **Settings → Device identity**. Keep that screen open.
+2. Owner: **Settings → Add another device**.
+3. Under **Nearby devices**, tap the name. Both screens show a six-digit
+   code. If it is the same, tap **Codes match** on both.
+4. Name the device, then **Send invitation**. Default role **Manager**.
+5. New device: **Accept invitation**. Matching the code does not join the
+   store; Accept does.
+
+If **Nearby devices** is empty: open Device identity on the other
+machine, join this Wi-Fi, or **Scan the other device**. A Mac or PC has
+no scanner. When the network blocks multicast the list stays empty; scan
+the QR from a phone.
 
 Keys are not copied. Promote to Owner later in **Staff** if needed.
 
@@ -45,8 +54,9 @@ inbox.
 
 ### 1.1.0 does not sync over the internet
 
-There is no **Settings → Sync over the internet** control. Devices must share
-Wi-Fi, or pair with QR. That control returns when a
+There is no **Settings → Sync over the internet** control. Devices must
+share Wi-Fi. Pair from **Nearby devices**, or scan QR when the list is
+empty. That control returns when a
 [Relay](../reference/terminology.md#relay) is hosted — see
 [Sync](../tech/sync.md).
 

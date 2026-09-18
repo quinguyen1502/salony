@@ -18,9 +18,19 @@ The PC has its own identity and syncs like a phone.
 
 ## Usage
 
-Desktop **shows a QR**; the owner’s phone **scans**. Desktop does not need a
-camera. **Without an owner phone you cannot onboard a PC** — unless the
-desktop is the *only* device (create the store there).
+A desktop can **start** pairing. On the new device, open **Settings →
+Device identity** and keep it on this Wi-Fi. On the PC: **Settings → Add
+another device** (or **Staff → Add staff → Invite staff**), tap the name
+under **Nearby devices**, confirm the six-digit code on both screens,
+then send. No camera.
+
+The PC also **shows a QR** on Device identity, so a phone can still scan
+this machine. **Scan the other device** / **Scan QR** are hidden on Mac
+and Windows.
+
+If **Nearby devices** stays empty, the network is blocking multicast.
+Then a phone scans the QR. You cannot complete that fallback from the PC
+alone. If this PC is the *only* device, create the store here.
 
 Invite as **Manager**; promote to Owner only with a reason. Windows stores
 keys per OS user.

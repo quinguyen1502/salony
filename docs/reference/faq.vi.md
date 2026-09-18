@@ -22,13 +22,19 @@ Câu ngắn. Chi tiết nằm ở trang liên quan.
 
 ??? question "Thêm máy là đăng nhập cùng tài khoản à?"
 
-    Không. Mỗi máy có identity riêng. Ghép bằng mã QR.
+    Không. Mỗi máy có identity riêng. Ghép từ **Thiết bị gần đây**, hoặc
+    quét QR. Xem [Thiết bị và đồng bộ](../admin/devices.md).
+
+??? question "Máy kia không hiện trong Thiết bị gần đây?"
+
+    Mở **Cài đặt → Danh tính thiết bị** trên máy đó, vào cùng Wi-Fi, hoặc
+    quét mã QR. Máy tính bàn không quét được; nó chọn từ danh sách.
     Xem [Thiết bị và đồng bộ](../admin/devices.md).
 
 ??? question "Hai máy khác Wi-Fi đồng bộ được không?"
 
-    Bản 1.1.0 thì không. Phải cùng Wi-Fi tiệm, hoặc QR. Đồng bộ qua internet
-    sẽ có lại khi Relay được host.
+    Bản 1.1.0 thì không. Phải cùng Wi-Fi tiệm. Ghép gần đây hoặc bằng QR.
+    Đồng bộ qua internet sẽ có lại khi Relay được host.
     Xem [Thiết bị và đồng bộ](../admin/devices.md).
 
 ??? question "In nhiệt Bluetooth được chưa?"

@@ -11,12 +11,7 @@ Chủ / Quản lý mở **Lịch**. Nhân viên mở **Lịch làm việc của 
 
 <figure class="shot-phone" markdown>
 ![Lịch làm việc trên điện thoại](../images/vi/light/calendar.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Lịch làm việc trên máy tính bảng](../images/vi/light/calendar-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Lịch làm việc</figcaption>
 </figure>
 
 </div>

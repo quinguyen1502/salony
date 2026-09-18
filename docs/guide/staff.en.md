@@ -12,12 +12,7 @@ and **Staff bookings** are **Owner** only.
 
 <figure class="shot-phone" markdown>
 ![Staff on a phone](../images/en/light/staff.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Staff on a tablet](../images/en/light/staff-wide.png){ loading=lazy }
-<figcaption>List and profile on tablet</figcaption>
+<figcaption>Staff</figcaption>
 </figure>
 
 </div>
@@ -52,23 +47,23 @@ Open **Staff**, tap **+** / **Add staff**. Two choices:
 
 Two devices, at the same time:
 
-1. **Their device:** **Settings → Device identity** — show the QR. Keep that
-   screen open.
+1. **Their device:** **Settings → Device identity**. Keep that screen
+   open.
 2. **Yours:** **Staff → Add staff → Invite staff**.
-3. **Scan QR**, or paste the device ID.
+3. Under **Nearby devices**, tap their name. Both screens show a
+   six-digit code; tap **Codes match** on both. If they are not listed,
+   **Scan QR**. Pasting the device ID alone cannot complete the first
+   send on this Wi-Fi.
 4. Optional display name. **Role** is required — **Staff** or **Manager**.
 5. **Invite**. They accept on their device.
+
+On a Mac or PC, **Scan QR** is hidden. Pick from **Nearby devices**.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Invite staff form](../images/en/light/staff-invite.png){ loading=lazy }
-<figcaption>Phone</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Invite on a tablet](../images/en/light/staff-invite-wide.png){ loading=lazy }
-<figcaption>Tablet and desktop</figcaption>
+<figcaption>Invite staff</figcaption>
 </figure>
 
 </div>

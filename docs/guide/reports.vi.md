@@ -10,12 +10,7 @@ Chủ / Quản lý xem số cả tiệm. Nhân viên chỉ thấy **Báo cáo c�
 
 <figure class="shot-phone" markdown>
 ![Báo cáo trên điện thoại](../images/vi/light/reports.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Báo cáo trên máy tính bảng](../images/vi/light/reports-wide.png){ loading=lazy }
-<figcaption>Máy tính bảng và máy tính bàn</figcaption>
+<figcaption>Báo cáo</figcaption>
 </figure>
 
 </div>

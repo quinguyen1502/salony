@@ -12,12 +12,7 @@ hóa đơn cũ.
 
 <figure class="shot-phone" markdown>
 ![Hóa đơn trên điện thoại](../images/vi/light/bills.png){ loading=lazy }
-<figcaption>Điện thoại</figcaption>
-</figure>
-
-<figure class="shot-wide" markdown>
-![Hóa đơn trên máy tính bảng](../images/vi/light/bills-wide.png){ loading=lazy }
-<figcaption>Danh sách và chi tiết trên máy tính bảng</figcaption>
+<figcaption>Hóa đơn</figcaption>
 </figure>
 
 </div>
