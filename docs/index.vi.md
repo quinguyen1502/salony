@@ -64,7 +64,7 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Cùng Wi-Fi tiệm (hoặc QR). Bản 1.1.0 chưa đồng bộ qua internet. Khi có
+    Cùng Wi-Fi tiệm (hoặc QR). Bản 1.1.1 chưa đồng bộ qua internet. Khi có
     Relay, nó chỉ chuyển ciphertext nên không đọc được nội dung tiệm.
 
     [:octicons-arrow-right-24: Thiết bị và đồng bộ](admin/devices.md)

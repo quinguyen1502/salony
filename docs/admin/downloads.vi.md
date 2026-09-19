@@ -1,6 +1,6 @@
 # Tải về
 
-Bản **1.1.0** cho Android và Windows. Chưa phải bản trên cửa hàng
+Bản **1.1.1** cho Android và Windows. Chưa phải bản trên cửa hàng
 ứng dụng.
 
 ## Tổng quan
@@ -8,24 +8,24 @@ Bản **1.1.0** cho Android và Windows. Chưa phải bản trên cửa hàng
 File cài nằm trên GitHub Releases, không nằm trên trang handbook này.
 Ô trống là chưa đăng file, không phải link hỏng.
 
-Bản 1.1.0 đồng bộ trên Wi-Fi tiệm (hoặc QR). **Chưa** đồng bộ qua internet.
+Bản 1.1.1 đồng bộ trên Wi-Fi tiệm (hoặc QR). **Chưa** đồng bộ qua internet.
 
-Bản 1.1.0 thêm phí thêm trên hóa đơn (tắt cho đến khi bật ở
-**Cài đặt → Hóa đơn**), tách Cài đặt thành Tiệm / Hóa đơn / Nhân viên,
-và nhóm dịch vụ theo loại khi đặt lịch hay lập hóa đơn.
+Bản 1.1.1 ghép máy từ **Thiết bị gần đây** bằng mã 6 số. Thêm thiết bị
+và Mời nhân viên không cần camera. Phí thêm, Cài đặt tách Tiệm / Hóa
+đơn / Nhân viên, và nhóm dịch vụ theo loại giữ như 1.1.0.
 
 ## Cách làm
 
 | Nền tảng | File | Trạng thái |
 | --- | --- | --- |
-| Android | [salony-1.1.0-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.1.0/salony-1.1.0-android-arm64.apk) | 1.1.0 |
-| Windows | [salony-1.1.0-windows.exe](https://github.com/quinguyen1502/salony/releases/download/v1.1.0/salony-1.1.0-windows.exe) | 1.1.0 |
+| Android | [salony-1.1.1-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.1.1/salony-1.1.1-android-arm64.apk) | 1.1.1 |
+| Windows | [salony-1.1.1-windows.exe](https://github.com/quinguyen1502/salony/releases/download/v1.1.1/salony-1.1.1-windows.exe) | 1.1.1 |
 
 SHA-256:
 
 ```
-e59dad311add0c6d449ff04835a146ba416246346a2b0f345b6b7510d31ef6a0  salony-1.1.0-android-arm64.apk
-916fc3df1668998cd13d7d66a2249451ff38f9937cb9caa5890bdb1895acedf3  salony-1.1.0-windows.exe
+39f8c86057801bbf2f22a16c36eba0c3de8c7fc5f26865a507658475727186d5  salony-1.1.1-android-arm64.apk
+d370032294d3a90e03e97e6373f3c2ae3d04d76c21efc6cbf5a90409214d5241  salony-1.1.1-windows.exe
 ```
 
 Hiện chưa có bản macOS trên trang này.

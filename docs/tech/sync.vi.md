@@ -7,7 +7,7 @@ Các thiết bị đã tin cậy gửi event đã chấp nhận cho nhau. Trư�
 
 ## Tổng quan
 
-Bản 1.1.0 chỉ đồng bộ **Gần / LAN**. [Relay](../reference/terminology.md#relay)
+Bản 1.1.1 chỉ đồng bộ **Gần / LAN**. [Relay](../reference/terminology.md#relay)
 chưa mở vì chưa host. Sơ đồ dưới mô tả cơ chế sẽ trở lại, không phải nút bạn
 bấm được hôm nay.
 
@@ -29,8 +29,8 @@ sequenceDiagram
 ## Chi tiết kỹ thuật
 
 1. **Gần / LAN** — cùng Wi-Fi (hoặc QR khi multicast bị chặn). App đang mở.
-   Đây là đường 1.1.0 dùng.
-2. **Relay** — không có trong 1.1.0. Khi được host, máy không cùng mạng bật
+   Đây là đường 1.1.1 dùng.
+2. **Relay** — không có trong 1.1.1. Khi được host, máy không cùng mạng bật
    **Đồng bộ qua internet** trên *từng* thiết bị
    ([online mode](../reference/terminology.md#online-mode)).
 3. **Không có tầng “upload tiệm lên cloud rồi tải xuống”.**

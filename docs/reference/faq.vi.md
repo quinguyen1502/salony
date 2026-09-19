@@ -33,7 +33,7 @@ Câu ngắn. Chi tiết nằm ở trang liên quan.
 
 ??? question "Hai máy khác Wi-Fi đồng bộ được không?"
 
-    Bản 1.1.0 thì không. Phải cùng Wi-Fi tiệm. Ghép gần đây hoặc bằng QR.
+    Bản 1.1.1 thì không. Phải cùng Wi-Fi tiệm. Ghép gần đây hoặc bằng QR.
     Đồng bộ qua internet sẽ có lại khi Relay được host.
     Xem [Thiết bị và đồng bộ](../admin/devices.md).
 
