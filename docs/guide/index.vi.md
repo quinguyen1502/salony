@@ -17,7 +17,9 @@ check-in. Rồi đặt lịch, lập hóa đơn, giữ khách, trả lương, xe
 
     [Tổng quan ngày](run-the-day.md) ·
     [Lịch hẹn](appointments.md) ·
-    [Hóa đơn](invoices.md)
+    [Hóa đơn](invoices.md) ·
+    [In biên lai](printing.md) ·
+    [Máy in nhiệt](printers.md)
 
 -   :material-account-group:{ .lg .middle } **Khách và nhân viên**
 
@@ -32,6 +34,7 @@ check-in. Rồi đặt lịch, lập hóa đơn, giữ khách, trả lương, xe
     ---
 
     [Dịch vụ](services.md) ·
+    [Khuyến mãi](promotions.md) ·
     [Thu nhập](earnings.md) ·
     [Báo cáo](reports.md)
 

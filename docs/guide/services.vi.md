@@ -80,6 +80,10 @@ chi tiết (hoặc trên form lúc tạo):
 
 </div>
 
+### Khuyến mãi
+
+Đợt giảm giá và giờ vàng có trang riêng: [Khuyến mãi](promotions.md).
+
 ## Khái niệm
 
 Thứ tự, cũng hiện trong **Cài đặt → Cài đặt hoa hồng**:
@@ -89,10 +93,12 @@ Thứ tự, cũng hiện trong **Cài đặt → Cài đặt hoa hồng**:
 3. Không thì **tỷ lệ hoa hồng mặc định** của tiệm
 
 Khi duyệt hóa đơn, số hoa hồng **chốt vào snapshot**. Đổi % sau không làm lại
-hóa đơn cũ.
+hóa đơn cũ. Dòng có khuyến mãi thì hoa hồng tính trên giá sau giảm, tức số
+tiền thật sự thu của khách.
 
 ## Trang liên quan
 
 - [Cài đặt tiệm](../admin/store-settings.md)
+- [Khuyến mãi](promotions.md)
 - [Hóa đơn và biên lai](invoices.md)
 - [Thu nhập và chi trả](earnings.md)

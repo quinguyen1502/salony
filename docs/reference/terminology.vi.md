@@ -28,8 +28,10 @@ Giải thích đầy đủ: [Local-first](../tech/local-first.md).
 | <a id="wake"></a>**wake** | Tín hiệu đánh thức máy (nếu có) để app đồng bộ. **Không** mang nội dung lịch hẹn. | thông báo “khách A lúc 14:00” từ máy chủ |
 | <a id="push"></a>**push** | Kênh đánh thức. Payload không chứa dữ liệu tiệm. | SMS, email hóa đơn |
 | <a id="online-mode"></a>**online mode** | Công tắc **trên từng thiết bị**, theo từng tiệm. | “bật cloud cho cả tiệm” |
-| <a id="licence-token"></a>**licence token** | Token đăng ký Relay của bản cài. | recovery phrase, mật khẩu sao lưu |
-| <a id="backup"></a>**backup** | Lớp sao lưu: cụm từ / tệp **identity**, hoặc tệp **dữ liệu**. Xem [Sao lưu](../admin/backup.md). | “Salony giữ bản sao hộ bạn” |
+| <a id="licence-token"></a>**licence token** | Token đăng ký Relay của bản cài. | mã khôi phục, mật khẩu sao lưu |
+| <a id="backup"></a>**backup** | Hai thứ riêng, đều làm ngay trên máy: [mã khôi phục](#recovery-key) và [bản sao lưu tiệm](#salon-backup). Xem [Bảo vệ và khôi phục tiệm](../admin/backup.md). | “Salony giữ bản sao hộ bạn” |
+| <a id="recovery-key"></a>**mã khôi phục** | 24 từ chép ra giấy, hoặc tệp mã khôi phục có mật khẩu. Giúp máy mới tiếp tục làm chủ tiệm (hoặc quản lý). Không chứa khách hay hóa đơn. | mật khẩu, bản sao lưu |
+| <a id="salon-backup"></a>**bản sao lưu tiệm** | Tệp có khoá chứa dữ liệu tiệm: khách, lịch hẹn, hóa đơn, nhân viên. Mở bằng mật khẩu sao lưu. Nên sao lưu lại thường xuyên. | bản sao cloud, mã khôi phục |
 | <a id="sync"></a>**sync** | Lớp đồng bộ event đã chấp nhận giữa thiết bị đã tin cậy. | “lưu lên Drive” |
 
 ## Từ salon — viết tiếng Việt
@@ -41,8 +43,10 @@ Giải thích đầy đủ: [Local-first](../tech/local-first.md).
 | biên lai | Tờ khách giữ. In lại thì đóng dấu **BẢN SAO** |
 | phiếu tạm tính | In từ hóa đơn nháp: số phải trả, trước khi thanh toán |
 | khách | Hồ sơ khách của **tiệm này** |
-| nhân viên | Người có identity, hoặc **nhân viên ảo** |
-| sao lưu | Bạn tự xuất tệp / ghi 24 từ |
+| nhân viên | Người dùng máy riêng, hoặc **nhân viên ảo** |
+| bảo vệ tiệm | Lưu mã khôi phục và bản sao lưu tiệm trong Cài đặt |
+| mã khôi phục | 24 từ hoặc tệp, mang lại quyền chủ tiệm trên máy mới |
+| bản sao lưu tiệm | Tệp có khoá, mang dữ liệu tiệm về lại |
 | đồng bộ | Máy đã ghép trao event cho nhau |
 | mất mạng / ngoại tuyến | Tiệm vẫn chạy, sync chờ có mạng |
 

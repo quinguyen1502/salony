@@ -12,8 +12,8 @@ transfer to a new device.
 <div class="shot-phones" markdown>
 
 <figure markdown>
-![Settings → Device identity](../images/en/light/settings-identity.png){ loading=lazy }
-<figcaption>Settings → Device identity</figcaption>
+![Join a store](../images/en/light/settings-identity.png){ loading=lazy }
+<figcaption>Join a store, opened from Select store</figcaption>
 </figure>
 
 </div>

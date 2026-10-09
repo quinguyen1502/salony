@@ -18,8 +18,10 @@ local-first, identity, events, and sync. Day-to-day work is in the
     ---
 
     [Store settings](store-settings.md) ·
-    [Backup](backup.md) ·
+    [Online booking](online-booking.md) ·
+    [Protect your salon](backup.md) ·
     [Devices](devices.md) ·
+    [Stop using a store](stop-using.md) ·
     [Desktop](desktop.md) ·
     [Downloads](downloads.md)
 

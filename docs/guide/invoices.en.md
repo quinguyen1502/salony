@@ -18,7 +18,8 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 
 ## Usage
 
-**Add → New invoice** (or after completing an appointment):
+**+** → **New invoice** on a phone, the **New invoice** tile on Home on a
+tablet or desktop, or after completing an appointment:
 
 - Optional customer (walk-in if empty)
 - Staff and services
@@ -29,6 +30,12 @@ Turn it on in **Settings → Billing → Extra fees** (the row after Tax). It is
 off until you enable one. A Card fee applies when the bill is Card. On a
 draft you can waive it for that bill. The receipt prints the stored name
 and amount, then the total.
+
+### Promotions on a bill
+
+Promotions price the bill on their own. A promoted line shows the usual price
+struck through and the sale price. Anyone who can edit the draft can take a
+promotion off a line. Details: [Promotions](promotions.md#bill).
 
 !!! tip "Voice on a phone"
 
@@ -68,6 +75,7 @@ the **PROVISIONAL BILL** and **COPY** stamps are explained.
 ## Related pages
 
 - [Printing](printing.md)
+- [Promotions](promotions.md)
 - [Store settings](../admin/store-settings.md)
 - [Appointments](appointments.md)
 - [AI assistant](ai-assistant.md)

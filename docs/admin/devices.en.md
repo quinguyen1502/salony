@@ -1,72 +1,98 @@
 # Devices and sync
 
-Each machine has its own identity. Adding a device is **not** logging into
-the same account.
+Each device joins the store on its own. Adding a device is **not** logging
+into the same account.
 
 ## Overview
 
-Sync exchanges accepted [events](../reference/terminology.md#event) between
-trusted devices — it does not upload the salon to a cloud.
+Sync is **trusted devices** sending each other their changes over the salon
+Wi-Fi. The salon is not uploaded to a cloud and downloaded again.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Add device in Settings](../images/en/light/settings-identity.png){ loading=lazy }
-<figcaption>Settings → Add another device / Device identity</figcaption>
+<figcaption>Settings → Advanced → Add another device</figcaption>
 </figure>
 
 </div>
 
 ## Usage
 
-### Add another device
+### Pair two devices { #pair }
 
-Two devices, on the salon Wi-Fi, at the same time. On a device that is
-already Owner:
+The same steps for every case: inviting staff, adding a second device of your
+own, or bringing a new device into an existing store. Only the starting point
+on the device already in the store differs:
 
-1. New device: **Settings → Device identity**. Keep that screen open.
-2. Owner: **Settings → Add another device**.
-3. Under **Nearby devices**, tap the name. Both screens show a six-digit
-   code. If it is the same, tap **Codes match** on both.
-4. Name the device, then **Send invitation**. Default role **Manager**.
-5. New device: **Accept invitation**. Matching the code does not join the
-   store; Accept does.
+| Task | On the device already in the store | Role of the new device |
+| --- | --- | --- |
+| Invite staff | **Staff → Add staff → Invite staff** (owner, manager) | You choose **Staff** or **Manager** |
+| Add your own device | **Settings → Advanced → Add another device** (owner) | **Manager** by default |
 
-If **Nearby devices** is empty: open Device identity on the other
-machine, join this Wi-Fi, or **Scan the other device**. A Mac or PC has
-no scanner. When the network blocks multicast the list stays empty; scan
-the QR from a phone.
+Both devices side by side, on the salon Wi-Fi, at the same time:
 
-Keys are not copied. Promote to Owner later in **Staff** if needed.
+1. **New device:** **Join a store** (the QR button on **Select store**), or the welcome screen
+   right after installing. Keep that screen open.
+2. **Device in the store:** open the starting point from the table.
+3. Under **Nearby devices**, tap the other device's name. Both screens show
+   a six-digit code. If it is the same, tap **Codes match** on both.
+4. Fill in the name, pick a role if asked, then tap **Invite** (staff) or
+   **Send invitation** (your own device).
+5. **New device:** tap **Accept invitation**. Matching the code does not
+   join the store; accepting does.
+
+Nothing but the invitation passes between the two devices. To make the new
+device an owner, change its role later in **Staff**.
+
+### Reconnect a device that is already in the store { #reconnect }
+
+After a restore or a change of device, the other devices pair again once.
+Follow the same steps as above. If the other device is already in the store,
+no new invitation is sent: both devices say *Reconnected* and sync as before.
+That person keeps their role and history, so there is no need to remove them
+and invite them again.
+
+### The other device does not show up { #not-found }
+
+**Nearby devices** stays empty when:
+
+- the other device has not opened **Join a store**,
+- the two are on different Wi-Fi networks,
+- or the Wi-Fi keeps devices from seeing each other (common on guest and
+  public Wi-Fi).
+
+Then scan the QR code on the new device with a phone: **Scan QR** when
+inviting staff, **Scan the other device** when adding your own. A Mac or PC
+has no scan button, so always scan with a phone. Pasting a device ID alone
+cannot send the invitation.
 
 ### Trusted devices
 
-- **Offline** — the other app is closed / unreachable
-- **Connected · Nearby** — LAN / nearby
+- **Offline** — the other app is closed or out of reach
+- **Connected · Nearby** — the two devices see each other on the salon Wi-Fi
 
-**Disconnect** stops sync; it does **not** remove the person from Staff.
+**Disconnect** only stops sync with that device. It does **not** take the
+person out of the store. For that, use **Remove from store**: see
+[Stop using a store](stop-using.md).
 
 ### Sync while the app is open
 
-**Settings → Sync**: auto-sync when the app is open on the same Wi-Fi (or QR
-if the network blocks multicast). A locked phone does not receive a cloud
-inbox.
+**Settings → Advanced → Sync**: devices sync on their own while the app is open on the
+same Wi-Fi. A locked phone receives nothing, because there is no cloud inbox
+to collect from.
 
-### 1.1.1 does not sync over the internet
-
-There is no **Settings → Sync over the internet** control. Devices must
-share Wi-Fi. Pair from **Nearby devices**, or scan QR when the list is
-empty. That control returns when a
-[Relay](../reference/terminology.md#relay) is hosted — see
-[Sync](../tech/sync.md).
+This version does not sync over the internet: devices must share Wi-Fi. See
+[Downloads](downloads.md).
 
 ### Notifications
 
-**Settings → Sync notifications**: a banner of the *kind* of change — no
-amounts. Only while the **app is open**.
+**Settings → Advanced → Sync notifications**: a banner naming the *kind* of change that
+synced, with no amounts. Only while the **app is open**.
 
 ## Related pages
 
-- [Sync internals](../tech/sync.md)
-- [Backup and recovery](backup.md)
+- [Stop using a store](stop-using.md)
+- [Protect and restore your salon](backup.md)
 - [Desktop](desktop.md)
+- [Sync internals](../tech/sync.md)

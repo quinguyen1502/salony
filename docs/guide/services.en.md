@@ -82,6 +82,10 @@ the detail (or on the create form):
 
 </div>
 
+### Promotions
+
+Sales and happy hours have their own page: [Promotions](promotions.md).
+
 ## Concepts
 
 Order, also shown in **Settings → Commission settings**:
@@ -91,10 +95,12 @@ Order, also shown in **Settings → Commission settings**:
 3. else the store **default commission rate**
 
 On approve, the commission amount **freezes into the snapshot**. Changing the
-rate later does not redo old bills.
+rate later does not redo old bills. On a promoted line, commission is worked
+out on the sale price, the money actually charged.
 
 ## Related pages
 
 - [Store settings](../admin/store-settings.md)
+- [Promotions](promotions.md)
 - [Invoices and receipts](invoices.md)
 - [Earnings](earnings.md)

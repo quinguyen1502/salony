@@ -24,6 +24,10 @@ Nhãn trong app: **Chủ tiệm**, **Quản lý**, **Nhân viên**.
 Thanh dưới đổi theo vai trò: Chủ tiệm có **Đặt lịch**, Nhân viên chỉ có
 **Lịch của tôi** và **Hóa đơn của tôi**.
 
+Nhân viên thấy giao diện điện thoại này trên mọi máy. Trên máy tính bảng hay
+máy tính, app nằm trong một cột rộng bằng điện thoại ở giữa màn hình; Chủ
+tiệm hay Quản lý dùng cùng máy đó thì vẫn thấy giao diện máy tính bảng.
+
 ## Khái niệm
 
 | Việc | Chủ tiệm | Quản lý | Nhân viên |
@@ -38,9 +42,12 @@ Thanh dưới đổi theo vai trò: Chủ tiệm có **Đặt lịch**, Nhân vi
 | Lịch nhân viên (chỉ họ / cả tiệm) | Có | Không | — |
 | Sao lưu identity / dữ liệu | Có | Có | Máy họ không có mục này |
 | Thu nhập / báo cáo | Cả đội | Cả đội | *Của mình* |
+| Đặt lịch online — bật trang | Có | Không | Không |
+| Đặt lịch online — đăng / xem yêu cầu | Có | Có | Không |
 
 ## Trang liên quan
 
 - [Nhân viên](../guide/staff.md)
 - [Lịch hẹn](../guide/appointments.md)
+- [Đặt lịch online](../admin/online-booking.md)
 - [FAQ](faq.md)

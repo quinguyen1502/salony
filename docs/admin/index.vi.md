@@ -18,8 +18,10 @@ local-first, identity, event, sync. Việc hàng ngày nằm ở
     ---
 
     [Cài đặt tiệm](store-settings.md) ·
-    [Sao lưu](backup.md) ·
+    [Đặt lịch online](online-booking.md) ·
+    [Bảo vệ tiệm](backup.md) ·
     [Thiết bị](devices.md) ·
+    [Ngừng dùng tiệm](stop-using.md) ·
     [Máy tính bàn](desktop.md) ·
     [Tải về](downloads.md)
 

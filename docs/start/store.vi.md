@@ -27,22 +27,19 @@ mời / thêm thiết bị.
 
 === "Vào tiệm có sẵn"
 
-    1. Trên máy mới: **Cài đặt → Danh tính thiết bị** (hoặc màn chào). Giữ
-       màn này mở.
-    2. Trên máy của Chủ tiệm hoặc Quản lý: **Nhân viên → Thêm nhân viên →
-       Mời nhân viên**. Trong **Thiết bị gần đây**, bấm tên, đối chiếu mã
-       6 số trên cả hai màn, chọn vai trò rồi gửi. Không thấy tên thì
-       **Quét QR**.
-    3. Máy mới bấm **Nhận lời mời**.
+    Chủ tiệm hoặc Quản lý ghép máy này với máy của họ rồi gửi lời mời. Trên
+    máy này, mở **Tham gia tiệm** (nút mã QR trên màn **Chọn tiệm**) (hoặc màn chào) và giữ màn
+    đó mở trong lúc họ làm.
 
-    Muốn thêm máy thứ hai cho chính mình (iPad chẳng hạn) thì trên máy của Chủ
-    tiệm chọn **Thêm thiết bị khác**; máy đó mặc định là **Quản lý**. Chi tiết:
-    [Thiết bị và đồng bộ](../admin/devices.md).
+    Thêm máy thứ hai của chính bạn (iPad chẳng hạn) cũng làm y như vậy: máy
+    Chủ tiệm bắt đầu từ **Cài đặt → Nâng cao → Thêm thiết bị khác**.
+
+    Các bước: [Ghép hai máy](../admin/devices.md#pair).
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Mã QR danh tính thiết bị](../images/vi/light/device-identity-qr.png){ loading=lazy }
+![Mã QR Tham gia tiệm](../images/vi/light/device-identity-qr.png){ loading=lazy }
 <figcaption>Máy mới hiện mã QR này</figcaption>
 </figure>
 

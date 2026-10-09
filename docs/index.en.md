@@ -55,7 +55,7 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Book, bill, and read earnings as usual. Sync when a path returns.
+    Book, bill, and read earnings as usual. Sync when the network is back.
 
     [:octicons-arrow-right-24: Run the day](guide/run-the-day.md)
 
@@ -63,8 +63,8 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    On shop Wi-Fi (or QR). 1.1.1 does not sync over the internet. When a
-    Relay is hosted, it forwards ciphertext — it cannot read the salon.
+    The devices in a store sync over the salon Wi-Fi, encrypted from one
+    device to the other. This version does not sync over the internet.
 
     [:octicons-arrow-right-24: Devices and sync](admin/devices.md)
 
@@ -72,10 +72,11 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Each device has its own **identity**. Pair from Nearby devices, or scan
-    a QR. No email, no password.
+    No email, no password. Add a device by pairing two devices side by side,
+    or by scanning a QR. Lose the phone and the recovery key brings the
+    salon back.
 
-    [:octicons-arrow-right-24: Identity](tech/identity.md)
+    [:octicons-arrow-right-24: Protect and restore your salon](admin/backup.md)
 
 </div>
 
@@ -95,8 +96,7 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Choose a language, create an identity on this device, then open or join
-    a store.
+    Choose a language, set up this device, then open or join a store.
 
     [:octicons-arrow-right-24: First launch](start/first-launch.md)
 
@@ -104,7 +104,8 @@ customers stay **on your device** — not in the cloud.
 
     ---
 
-    Write down the 24-word phrase, then add staff and services.
+    Protect your salon: save the recovery key and a salon backup. Then add
+    staff and services.
 
     [:octicons-arrow-right-24: First day](start/first-day.md)
 
@@ -114,9 +115,10 @@ customers stay **on your device** — not in the cloud.
 ## How it works { #how-it-works }
 
 The publisher keeps no copy of your salon: nothing to read, nothing to sell,
-and nothing to restore for you. In exchange, backup is yours — the 24-word
-phrase and a data file. Lose the device without a backup and that device's
-data is gone.
+and nothing to restore for you. In exchange, keeping the salon safe is
+yours: the recovery key and a salon backup, both in **Settings → Protect your
+salon**. Lose the device with no backup and no other device in the store, and
+that device's data is gone.
 
 <div class="how-diagram" markdown>
 
@@ -134,7 +136,7 @@ Appointments, invoices, and customers live here. Works offline.
 
 **Pair nearby or with QR**
 
-Wi-Fi or the Internet · end-to-end encrypted
+Salon Wi-Fi · end-to-end encrypted
 
 </div>
 
@@ -150,10 +152,9 @@ Until you pair it, that device can read nothing.
 
 <div class="how-card how-card--relay" markdown>
 
-:material-shield-lock: **The Relay cannot read it**
+:material-shield-lock: **No server holds the salon**
 
-A server only forwards ciphertext. The salon is not in the cloud. No email
-account.
+The salon is not in the cloud. No email account. [Why](tech/local-first.md)
 
 </div>
 

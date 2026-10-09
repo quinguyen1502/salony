@@ -17,7 +17,9 @@ check-in. Then book, bill, keep customers, pay the team, read the numbers.
 
     [Day overview](run-the-day.md) ·
     [Appointments](appointments.md) ·
-    [Invoices](invoices.md)
+    [Invoices](invoices.md) ·
+    [Printing](printing.md) ·
+    [Thermal printers](printers.md)
 
 -   :material-account-group:{ .lg .middle } **Customers and staff**
 
@@ -32,6 +34,7 @@ check-in. Then book, bill, keep customers, pay the team, read the numbers.
     ---
 
     [Services](services.md) ·
+    [Promotions](promotions.md) ·
     [Earnings](earnings.md) ·
     [Reports](reports.md)
 

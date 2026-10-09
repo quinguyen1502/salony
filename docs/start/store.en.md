@@ -28,20 +28,19 @@ by invitation / add-device.
 
 === "Join an existing store"
 
-    1. New device: **Settings → Device identity** (or Welcome). Keep that
-       screen open.
-    2. Owner/manager: **Staff → Add staff → Invite staff**. Under
-       **Nearby devices**, tap the name, confirm the six-digit code on
-       both screens, pick a role, send. If it is not listed, **Scan QR**.
-    3. New device **Accept invitation**.
+    An owner or manager pairs this device with theirs and sends an
+    invitation. On this device, open **Join a store** (the QR button on **Select store**) (or the
+    welcome screen) and keep it open while they do.
 
-    Or **Add another device** on the owner device — iPad / second phone,
-    invited as **Manager** by default. See [Devices and sync](../admin/devices.md).
+    Adding a second device of your own, such as an iPad, works the same way:
+    the owner device starts from **Settings → Advanced → Add another device**.
+
+    Steps: [Pair two devices](../admin/devices.md#pair).
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Device identity QR](../images/en/light/device-identity-qr.png){ loading=lazy }
+![Join a store QR](../images/en/light/device-identity-qr.png){ loading=lazy }
 <figcaption>The new device shows this QR</figcaption>
 </figure>
 

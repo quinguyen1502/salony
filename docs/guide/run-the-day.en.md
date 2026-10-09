@@ -7,6 +7,11 @@ Day overview: next appointment, needs attention, quick actions.
 The **Home** tab is the owner/manager day screen. Staff have their own Home —
 *their* bookings and earnings.
 
+On a tablet or desktop, an owner's or manager's Home opens with a band of
+shortcut tiles above the day overview. Staff keep the phone layout on every
+device: on a tablet or computer it sits in a phone-width column in the
+middle of the screen.
+
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
@@ -27,13 +32,17 @@ The **Home** tab is the owner/manager day screen. Staff have their own Home —
 - **Needs attention** — draft invoices waiting for approval, unassigned
   bookings
 - **Quick actions** — new appointment, walk-in invoice, check-in, today’s
-  schedule
+  schedule. Phone only; on a tablet the shortcut tiles take their place
 
 Phone: bottom bar **Home**, **Bookings**, **Bills**, and **+**. **More** (menu
 icon, top right) opens customers, staff, services, calendar, reports, and
 settings.
 
-Tablet / desktop: a side rail with the same screens.
+Tablet / desktop: no side menu. Home's shortcut tiles start with **New
+invoice** and **New appointment**, then every screen, **Settings** last.
+Each screen's header has **Home** and **Switch screen**, which pops up the
+same tiles, so any screen is one tap away. Back (or Escape) first closes an
+open record on the right, then returns to Home.
 
 Dark appearance: **Settings → Appearance → Dark** (app shots invert against
 the docs theme).

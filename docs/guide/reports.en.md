@@ -25,11 +25,21 @@ subtracted); average ticket; tax, tips, commission, payouts; top services
 **Customer mix**; payment mix (invoice total, extra fees included); staff
 performance (owner/manager).
 
+**Promotion savings** (after top services) shows how much promotions took
+off bills approved in the period, in total and per promotion, with how many
+bills used each. It is not revenue — the customer was never charged it — so
+gross and net revenue, payment mix, and average ticket stay as they are.
+Top services already count the sale price. A refund does not reduce
+savings. The section is hidden when the period has none. Staff see their
+own bills in **My reports**.
+
 An empty range means there is no data in that window.
 
 **Export** downloads a CSV on your device — not a cloud report emailed to
 you. Invoice CSV has a **Fees** column between Tip and Commission; void and
-refund rows are negative.
+refund rows are negative. A **Promotion savings** column sits between
+Currency and Tax; it is 0 on void and refund rows and on bills without
+promotions.
 
 **Analyse with AI** / **Automatic summary** runs on the device after the
 model is downloaded. See [AI assistant](ai-assistant.md).

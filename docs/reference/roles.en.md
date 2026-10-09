@@ -24,6 +24,10 @@ In-app labels: **Owner**, **Manager**, **Staff**.
 The bottom bar changes with the role: an Owner gets **Bookings**, a Staff
 device gets only **My schedule** and **My invoices**.
 
+Staff see this phone layout on every device. On a tablet or computer it sits
+in a phone-width column in the middle of the screen; an Owner or Manager on
+the same machine gets the tablet layout.
+
 ## Concepts
 
 | Job | Owner | Manager | Staff |
@@ -38,9 +42,12 @@ device gets only **My schedule** and **My invoices**.
 | Staff bookings (own / whole store) | Yes | No | — |
 | Identity / data backup | Yes | Yes | Those rows are absent |
 | Earnings / reports | Whole team | Whole team | *Their own* |
+| Online booking — turn the page on | Yes | No | No |
+| Online booking — publish / review requests | Yes | Yes | No |
 
 ## Related pages
 
 - [Staff](../guide/staff.md)
 - [Appointments](../guide/appointments.md)
+- [Online booking](../admin/online-booking.md)
 - [FAQ](faq.md)

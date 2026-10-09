@@ -26,7 +26,8 @@ Có [dịch vụ](services.md) và [nhân viên](staff.md) (người thật ho�
 
 === "Chủ tiệm / Quản lý"
 
-    **Tạo mới → Đặt lịch mới** (hoặc **Tổng quan → Đặt lịch mới**):
+    Điện thoại: bấm **+** ở thanh dưới, chọn **Đặt lịch mới**. Máy tính bảng
+    và máy tính bàn: ô **Đặt lịch mới** trên Home. Rồi điền:
 
     1. Khách (tạo nhanh nếu chưa có)
     2. Dịch vụ — có thể nhiều dịch vụ
@@ -40,7 +41,7 @@ Có [dịch vụ](services.md) và [nhân viên](staff.md) (người thật ho�
 
     Tab **Lịch của tôi**: lịch gán cho họ, hoặc cả tiệm nếu **Lịch nhân viên**
     là **Cả tiệm**. Họ **không** có **Đặt lịch mới**. Họ lập **Hóa đơn mới**
-    từ **Tạo**.
+    từ nút **+**.
 
 <div class="shot-phones" markdown>
 
@@ -72,8 +73,13 @@ Lịch chưa gán: **Cần xếp nhân viên**. **Xếp ngay** / **Xếp sau** t
 Chủ tiệm và Quản lý đổi trạng thái ngay trong màn chi tiết. Nhân viên chỉ
 xem được lịch trong phạm vi cho phép, không đổi trạng thái.
 
+Khách còn gửi được yêu cầu từ trang công khai. Đó **chưa** phải lịch đã
+đặt cho đến khi Chủ tiệm hoặc Quản lý **Xác nhận**. Xem
+[Đặt lịch online](../admin/online-booking.md).
+
 ## Trang liên quan
 
+- [Đặt lịch online](../admin/online-booking.md)
 - [Giờ rảnh](schedule.md)
 - [Khách hàng](customers.md)
 - [Hóa đơn và biên lai](invoices.md)

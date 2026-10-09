@@ -1,35 +1,36 @@
 # Downloads
 
-Version **1.1.1** for Android and Windows. These are
-not store listings yet.
+Version **1.2.0** for Android. These are not store listings yet.
+There is no Windows build on this page yet.
 
 ## Overview
 
 Installers live on GitHub Releases, not on this handbook site. An empty
 slot means no file yet — not a dead link.
 
-1.1.1 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
+1.2.0 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
 internet.
 
-1.1.1 lets you pair from **Nearby devices** with a six-digit code.
-Add another device and Invite staff no longer need a camera. Extra
-fees, Settings grouped Store / Billing / Staff, and service categories
-remain as in 1.1.0.
+1.2.0 adds automatic salon backup, archiving a salon, and starting again
+while keeping the lists. Online booking can be turned on. Protect your
+salon covers every salon on this device. Moving to a new device names the
+salons that move, and the new device opens on them. Scanning a device
+that is already in the salon reconnects it. Nearby pairing stays as in
+1.1.1.
 
 ## Usage
 
 | Platform | File | Status |
 | --- | --- | --- |
-| Android | [salony-1.1.1-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.1.1/salony-1.1.1-android-arm64.apk) | 1.1.1 |
-| Windows | [salony-1.1.1-windows.exe](https://github.com/quinguyen1502/salony/releases/download/v1.1.1/salony-1.1.1-windows.exe) | 1.1.1 |
+| Android | [salony-1.2.0-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.0/salony-1.2.0-android-arm64.apk) | 1.2.0 |
 
 SHA-256:
 
 ```
-39f8c86057801bbf2f22a16c36eba0c3de8c7fc5f26865a507658475727186d5  salony-1.1.1-android-arm64.apk
-d370032294d3a90e03e97e6373f3c2ae3d04d76c21efc6cbf5a90409214d5241  salony-1.1.1-windows.exe
+e450a7ee89f71d8fe4c668604602b23ad5c499d91a195835381c613d2c1a43af  salony-1.2.0-android-arm64.apk
 ```
 
+There is no Windows build on this page yet.
 There is no macOS build on this page yet.
 There is no iOS build on this page yet.
 
@@ -38,8 +39,8 @@ There is no iOS build on this page yet.
 - **Android.** The phone may ask to allow installs from outside Play Store.
 - **Windows.** SmartScreen may warn. Install only if you trust the source.
 
-[Back up](backup.md) before trying a build on a device that already runs a
-live salon.
+[Protect your salon](backup.md) before trying a build on a device that
+already runs a live salon.
 
 ## Related pages
 

@@ -75,18 +75,22 @@ plugins:
             Appointments: Lịch hẹn
             Invoices and receipts: Hóa đơn và biên lai
             Printing: In biên lai
+            Thermal printers: Máy in nhiệt
             Customers and staff: Khách và nhân viên
             Customers: Khách hàng
             Staff: Nhân viên
             Availability: Giờ rảnh
             Pricing and earnings: Giá và thu nhập
             Services and commission: Dịch vụ và hoa hồng
+            Promotions: Khuyến mãi
             Earnings: Thu nhập và chi trả
             Reports: Báo cáo
             AI assistant: Trợ lý AI
             Store settings: Cài đặt tiệm
-            Backup and recovery: Sao lưu và khôi phục
+            Online booking: Đặt lịch online
+            Protect and restore your salon: Bảo vệ và khôi phục tiệm
             Devices and sync: Thiết bị và đồng bộ
+            Stop using a store: Ngừng dùng tiệm
             Desktop: Máy tính bàn
             Downloads: Tải về
             Local-first: Local-first
@@ -135,20 +139,24 @@ nav:
           - Appointments: guide/appointments.md
           - Invoices and receipts: guide/invoices.md
           - Printing: guide/printing.md
+          - Thermal printers: guide/printers.md
       - Customers and staff:
           - Customers: guide/customers.md
           - Staff: guide/staff.md
           - Availability: guide/schedule.md
       - Pricing and earnings:
           - Services and commission: guide/services.md
+          - Promotions: guide/promotions.md
           - Earnings: guide/earnings.md
           - Reports: guide/reports.md
       - AI assistant: guide/ai-assistant.md
   - Operate:
       - admin/index.md
       - Store settings: admin/store-settings.md
-      - Backup and recovery: admin/backup.md
+      - Online booking: admin/online-booking.md
+      - Protect and restore your salon: admin/backup.md
       - Devices and sync: admin/devices.md
+      - Stop using a store: admin/stop-using.md
       - Desktop: admin/desktop.md
       - Downloads: admin/downloads.md
   - How it works:

@@ -38,10 +38,10 @@ data. Replay: **Settings → Replay guided tour**.
 
 ### Do this on day one
 
-1. Write down the [recovery phrase](../admin/backup.md).
-2. Export a [data backup](../admin/backup.md) once you have customers or
-   bills.
-3. Add [staff](../guide/staff.md) and [services](../guide/services.md)
+1. Once you have customers or bills, open **Settings → Protect your salon**
+   and tap **Protect my salon**: save the recovery key, then a salon
+   backup. See [Protect and restore your salon](../admin/backup.md).
+2. Add [staff](../guide/staff.md) and [services](../guide/services.md)
    before booking.
 
 !!! warning "Staff cannot create appointments"
@@ -52,4 +52,4 @@ data. Replay: **Settings → Replay guided tour**.
 ## Related pages
 
 - [Run the day](../guide/run-the-day.md)
-- [Backup and recovery](../admin/backup.md)
+- [Protect and restore your salon](../admin/backup.md)

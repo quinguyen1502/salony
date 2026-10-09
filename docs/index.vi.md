@@ -64,8 +64,8 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Cùng Wi-Fi tiệm (hoặc QR). Bản 1.1.1 chưa đồng bộ qua internet. Khi có
-    Relay, nó chỉ chuyển ciphertext nên không đọc được nội dung tiệm.
+    Các máy trong tiệm đồng bộ qua Wi-Fi của tiệm, mã hoá từ máy này tới
+    máy kia. Bản hiện tại chưa đồng bộ qua internet.
 
     [:octicons-arrow-right-24: Thiết bị và đồng bộ](admin/devices.md)
 
@@ -73,10 +73,10 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Mỗi máy có **identity** riêng. Ghép từ Thiết bị gần đây, hoặc quét QR.
-    Không email, không mật khẩu.
+    Không email, không mật khẩu. Thêm máy bằng cách ghép hai máy đặt gần
+    nhau, hoặc quét QR. Mất máy thì lấy lại tiệm bằng mã khôi phục.
 
-    [:octicons-arrow-right-24: Identity](tech/identity.md)
+    [:octicons-arrow-right-24: Bảo vệ và khôi phục tiệm](admin/backup.md)
 
 </div>
 
@@ -96,7 +96,7 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Chọn ngôn ngữ, tạo identity trên máy, rồi tạo tiệm hoặc nhận lời mời.
+    Chọn ngôn ngữ, thiết lập máy, rồi tạo tiệm hoặc nhận lời mời.
 
     [:octicons-arrow-right-24: Lần đầu mở app](start/first-launch.md)
 
@@ -104,7 +104,8 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
     ---
 
-    Ghi 24 từ khôi phục ra giấy, thêm nhân viên và dịch vụ.
+    Bảo vệ tiệm: lưu mã khôi phục và bản sao lưu tiệm. Rồi thêm nhân viên
+    và dịch vụ.
 
     [:octicons-arrow-right-24: Ngày đầu](start/first-day.md)
 
@@ -114,8 +115,10 @@ lưu **trên máy bạn**, không đưa lên cloud.
 ## Salony chạy thế nào { #how-it-works }
 
 Bên phát hành không giữ bản sao tiệm của bạn: không có gì để đọc, để bán,
-cũng không khôi phục hộ được. Đổi lại, việc sao lưu là của bạn: 24 từ khôi
-phục và tệp dữ liệu. Mất máy mà chưa sao lưu thì mất dữ liệu trên máy đó.
+cũng không khôi phục hộ được. Đổi lại, việc giữ tiệm an toàn là của bạn: mã
+khôi phục và bản sao lưu tiệm, làm trong **Cài đặt → Bảo vệ tiệm**. Mất máy
+mà không có bản sao lưu, cũng không có máy nào khác trong tiệm, thì mất dữ
+liệu trên máy đó.
 
 <div class="how-diagram" markdown>
 
@@ -133,7 +136,7 @@ Lịch, hóa đơn, khách ghi trên máy này. Mất mạng vẫn chạy.
 
 **Ghép gần đây hoặc QR**
 
-Wi-Fi hoặc Internet · mã hoá đầu cuối
+Wi-Fi của tiệm · mã hoá đầu cuối
 
 </div>
 
@@ -149,9 +152,9 @@ Chưa ghép thì máy kia không đọc được gì.
 
 <div class="how-card how-card--relay" markdown>
 
-:material-shield-lock: **Relay không đọc được**
+:material-shield-lock: **Không có máy chủ giữ tiệm**
 
-Máy chủ chỉ chuyển ciphertext. Tiệm không nằm trên cloud. Không tài khoản email.
+Tiệm không nằm trên cloud. Không tài khoản email. [Vì sao](tech/local-first.md)
 
 </div>
 

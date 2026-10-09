@@ -21,12 +21,13 @@ and **Staff bookings** are **Owner** only.
 
 Full matrix: [Roles](../reference/roles.md).
 
-- One device — one identity — can be Owner in store A and Staff in store B.
-- A **real person** has an identity on their device, can sign events, and
-  uses that device.
-- **Virtual staff** is a profile for bookings / commission. **Not** an
-  identity, does not sign events, has no device to “log in”. Do not confuse
-  it with *your* second device — [Devices and sync](../admin/devices.md).
+- The role belongs to the store, not the device. The same phone can be
+  Owner in store A and Staff in store B.
+- A **real person** runs Salony on their own device and joins the store from
+  it. What they record carries their name.
+- **Virtual staff** is a profile for bookings and commission. It has no
+  device and never opens the app. Do not confuse it with *your* second
+  device — [Devices and sync](../admin/devices.md).
 - **Staff bookings**: **Only own** or **Whole store**. It does not change who
   can create appointments.
 
@@ -45,19 +46,11 @@ Open **Staff**, tap **+** / **Add staff**. Two choices:
 
 ### Invite staff (a real person)
 
-Two devices, at the same time:
-
-1. **Their device:** **Settings → Device identity**. Keep that screen
-   open.
-2. **Yours:** **Staff → Add staff → Invite staff**.
-3. Under **Nearby devices**, tap their name. Both screens show a
-   six-digit code; tap **Codes match** on both. If they are not listed,
-   **Scan QR**. Pasting the device ID alone cannot complete the first
-   send on this Wi-Fi.
-4. Optional display name. **Role** is required — **Staff** or **Manager**.
-5. **Invite**. They accept on their device.
-
-On a Mac or PC, **Scan QR** is hidden. Pick from **Nearby devices**.
+**Staff → Add staff → Invite staff**, with their device open on **Settings →
+Join a store**. Pair the two devices as in
+[Pair two devices](../admin/devices.md#pair). On the form, the display name is
+optional and **Role** is required: **Staff** or **Manager**. Tap **Invite**;
+they accept on their device.
 
 <div class="shot-row" markdown>
 
@@ -92,7 +85,7 @@ When they will not run Salony on a phone:
 </div>
 
 Assign bookings and commission to this profile like a real person. They do
-not open the app and do not sign events.
+not open the app.
 
 ### Detail and change role
 
@@ -110,8 +103,13 @@ Tap a row for today, performance, earnings, schedule.
 Owner changes role on the detail screen. Staff **cannot** create appointments
 regardless of that setting.
 
+When someone leaves the salon, the owner taps **Remove from store** on their
+detail. A virtual profile is stopped with **Deactivate** instead. See
+[Stop using a store](../admin/stop-using.md).
+
 ## Related pages
 
 - [Roles](../reference/roles.md)
+- [Stop using a store](../admin/stop-using.md)
 - [Availability](schedule.md)
 - [Earnings](earnings.md)

@@ -21,13 +21,13 @@ trò và chỉnh **Lịch nhân viên**.
 
 Bảng đầy đủ: [Vai trò](../reference/roles.md).
 
-- Một máy ứng với một identity. Chính identity đó có thể là Chủ tiệm ở tiệm A
-  mà chỉ là Nhân viên ở tiệm B.
-- **Người thật** có identity trên máy của họ, ký được event, và vào tiệm bằng
-  chính máy đó.
-- **Nhân viên ảo** là hồ sơ gán lịch / hoa hồng. **Không** phải identity, không
-  ký event, không có máy để “đăng nhập”. Đừng nhầm với máy thứ hai của *bạn*:
-  xem [Thiết bị và đồng bộ](../admin/devices.md).
+- Vai trò thuộc về tiệm, không thuộc về máy. Cùng một điện thoại có thể là
+  Chủ tiệm ở tiệm A mà chỉ là Nhân viên ở tiệm B.
+- **Người thật** dùng Salony trên máy của họ và vào tiệm bằng chính máy đó.
+  Việc họ ghi trong app mang tên họ.
+- **Nhân viên ảo** là hồ sơ để gán lịch và hoa hồng. Không có máy, không bao
+  giờ mở app. Đừng nhầm với máy thứ hai của *bạn*: xem
+  [Thiết bị và đồng bộ](../admin/devices.md).
 - **Lịch nhân viên**: **Chỉ của họ** hoặc **Cả tiệm**. Không đổi quyền tạo lịch
   hẹn.
 
@@ -46,17 +46,11 @@ Mở **Nhân viên**, bấm **+** / **Thêm nhân viên**. Có hai lựa chọn:
 
 ### Mời nhân viên (người thật)
 
-Hai máy, cùng lúc:
-
-1. **Máy họ:** **Cài đặt → Danh tính thiết bị**. Giữ màn này mở.
-2. **Máy bạn:** **Nhân viên → Thêm nhân viên → Mời nhân viên**.
-3. Trong **Thiết bị gần đây**, bấm tên họ. Hai màn hiện mã 6 số; bấm
-   **Trùng mã** trên cả hai. Không thấy tên thì **Quét QR**. Chỉ dán ID
-   thiết bị thì chưa gửi được trên Wi-Fi này.
-4. Tên hiển thị tuỳ chọn. **Vai trò** bắt buộc: **Nhân viên** hoặc **Quản lý**.
-5. **Mời**. Họ chấp nhận trên máy họ.
-
-Trên Mac hoặc PC, **Quét QR** bị ẩn. Chọn từ **Thiết bị gần đây**.
+**Nhân viên → Thêm nhân viên → Mời nhân viên**, trong lúc máy họ mở sẵn
+**Tham gia tiệm** (nút mã QR trên màn **Chọn tiệm**). Ghép hai máy như trong
+[Ghép hai máy](../admin/devices.md#pair). Trên form, tên hiển thị tuỳ chọn,
+**Vai trò** bắt buộc: **Nhân viên** hoặc **Quản lý**. Bấm **Mời**; họ nhận lời
+mời trên máy họ.
 
 <div class="shot-row" markdown>
 
@@ -90,8 +84,7 @@ Khi người đó không mang điện thoại chạy Salony:
 
 </div>
 
-Gán lịch và hoa hồng cho hồ sơ này như người thật. Họ không mở app, không ký
-event.
+Gán lịch và hoa hồng cho hồ sơ này như người thật. Họ không mở app.
 
 ### Chi tiết và đổi vai trò
 
@@ -109,8 +102,13 @@ Bấm một hàng để mở chi tiết: ca hôm nay, hiệu suất, thu nhập,
 Chủ tiệm đổi vai trò trên chi tiết. Nhân viên **không** tạo lịch hẹn dù vai
 trò thế nào.
 
+Khi có người nghỉ, Chủ tiệm bấm **Gỡ khỏi tiệm** trên chi tiết người đó. Hồ sơ
+nhân viên ảo thì dùng **Ngưng hoạt động**. Xem
+[Ngừng dùng tiệm](../admin/stop-using.md).
+
 ## Trang liên quan
 
 - [Vai trò](../reference/roles.md)
+- [Ngừng dùng tiệm](../admin/stop-using.md)
 - [Giờ rảnh](schedule.md)
 - [Thu nhập và chi trả](earnings.md)

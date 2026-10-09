@@ -25,7 +25,8 @@ staff). The time must match [availability](schedule.md).
 
 === "Owner / Manager"
 
-    **Add → New appointment** (or **Dashboard → New appointment**):
+    Phone: tap **+** in the bottom bar, then **New appointment**. Tablet or
+    desktop: the **New appointment** tile on Home. Then fill in:
 
     1. Customer (quick-create if needed)
     2. Services — more than one is allowed
@@ -40,7 +41,7 @@ staff). The time must match [availability](schedule.md).
 
     **My Bookings**: appointments assigned to them, or the whole store if
     **Staff bookings** is **Whole store**. They do **not** get **New
-    appointment**. They start **New invoice** from **Add**.
+    appointment**. They start **New invoice** from **+**.
 
 <div class="shot-phones" markdown>
 
@@ -72,8 +73,13 @@ the detail screen — do not create a second booking.
 Owner / Manager change status on appointment detail. Staff see bookings they
 are allowed to see; they do not run the lifecycle the way a manager does.
 
+Customers can also send a request from the public page. That is **not**
+a booked appointment until Owner or Manager **Confirm**. See
+[Online booking](../admin/online-booking.md).
+
 ## Related pages
 
+- [Online booking](../admin/online-booking.md)
 - [Availability](schedule.md)
 - [Customers](customers.md)
 - [Invoices and receipts](invoices.md)

@@ -11,8 +11,8 @@ Khoá riêng không rời máy, trừ khi *bạn* xuất sao lưu hoặc chuyể
 <div class="shot-phones" markdown>
 
 <figure markdown>
-![Cài đặt → Danh tính thiết bị](../images/vi/light/settings-identity.png){ loading=lazy }
-<figcaption>Cài đặt → Danh tính thiết bị</figcaption>
+![Tham gia tiệm](../images/vi/light/settings-identity.png){ loading=lazy }
+<figcaption>Tham gia tiệm, mở từ Chọn tiệm</figcaption>
 </figure>
 
 </div>

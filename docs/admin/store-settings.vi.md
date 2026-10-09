@@ -28,6 +28,8 @@ lý AI (nếu có), Xem lại hướng dẫn, Đồng bộ, Báo cáo lỗi & s�
 - **Giờ hoạt động** — giờ salon mở cửa mỗi tuần.
 - Tiền tệ: đổi chỉ đổi *cách hiện*, không đổi số đã chốt trên hóa đơn cũ.
 - Múi giờ: đổi **không** dịch chuyển giờ lịch hẹn đã có.
+- **Đặt lịch online** — trang công khai và hộp thư yêu cầu. Chủ tiệm bật.
+  [Đặt lịch online](online-booking.md).
 
 **Hóa đơn**
 
@@ -60,6 +62,7 @@ Widget lịch chỉ điện thoại. Máy Nhân viên chỉ thấy lịch *của
 
 ## Trang liên quan
 
+- [Đặt lịch online](online-booking.md)
 - [Trợ lý AI](../guide/ai-assistant.md)
 - [Dịch vụ và hoa hồng](../guide/services.md)
 - [In biên lai](../guide/printing.md)

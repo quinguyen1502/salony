@@ -37,9 +37,10 @@ Tour chạy lần đầu khi vào tiệm. Bỏ qua không làm thay đổi dữ 
 
 ### Nên làm ngay
 
-1. Ghi [24 từ khôi phục](../admin/backup.md) ra giấy.
-2. Xuất [sao lưu dữ liệu](../admin/backup.md) nếu đã có khách hoặc hóa đơn.
-3. Thêm [nhân viên](../guide/staff.md) và [dịch vụ](../guide/services.md)
+1. Khi đã có khách hoặc hóa đơn, mở **Cài đặt → Bảo vệ tiệm** và bấm **Bảo
+   vệ tiệm ngay**: lưu mã khôi phục, rồi lưu bản sao lưu tiệm. Xem
+   [Bảo vệ và khôi phục tiệm](../admin/backup.md).
+2. Thêm [nhân viên](../guide/staff.md) và [dịch vụ](../guide/services.md)
    trước khi đặt lịch.
 
 !!! warning "Nhân viên không đặt được lịch hẹn"
@@ -50,4 +51,4 @@ Tour chạy lần đầu khi vào tiệm. Bỏ qua không làm thay đổi dữ 
 ## Trang liên quan
 
 - [Một ngày làm việc](../guide/run-the-day.md)
-- [Sao lưu và khôi phục](../admin/backup.md)
+- [Bảo vệ và khôi phục tiệm](../admin/backup.md)

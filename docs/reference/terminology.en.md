@@ -27,8 +27,10 @@ Full explanation: [Local-first](../tech/local-first.md).
 | <a id="wake"></a>**wake** | A signal that can stir a device so the app can sync. It does **not** carry appointment content. | A server-sent “customer A at 14:00” banner |
 | <a id="push"></a>**push** | The wake channel. Payload has no salon data. | SMS, invoice email |
 | <a id="online-mode"></a>**online mode** | A **per-device** switch, scoped to a store. | “Turn on cloud for the whole salon” |
-| <a id="licence-token"></a>**licence token** | The Relay subscription token for this install. | Recovery phrase, backup passphrase |
-| <a id="backup"></a>**backup** | Identity phrase/file, or salon **data** file. See [Backup](../admin/backup.md). | “Salony keeps a copy for you” |
+| <a id="licence-token"></a>**licence token** | The Relay subscription token for this install. | Recovery key, backup password |
+| <a id="backup"></a>**backup** | Two separate things, both made on the device: the [recovery key](#recovery-key) and the [salon backup](#salon-backup). See [Protect and restore your salon](../admin/backup.md). | “Salony keeps a copy for you” |
+| <a id="recovery-key"></a>**recovery key** | 24 words on paper, or a recovery key file with a password. It lets a new device carry on as owner (or manager) of this salon. It holds no customers or invoices. | A password, a backup |
+| <a id="salon-backup"></a>**salon backup** | A locked file with the salon's data: customers, appointments, invoices, staff. Opened with its backup password. Make a new one regularly. | A cloud copy, the recovery key |
 | <a id="sync"></a>**sync** | Exchanges accepted events between trusted devices. | “Save to Drive” |
 
 ## Salon operations — in the app’s language
@@ -40,8 +42,10 @@ Full explanation: [Local-first](../tech/local-first.md).
 | receipt | What the customer keeps. A reprint is stamped **COPY** |
 | provisional bill | Printed from a draft: what is owed, before payment |
 | customer | A profile that belongs to **this store** |
-| staff | A person with an identity, or a **virtual staff** profile |
-| backup | You export a file / write 24 words |
+| staff | A person on their own device, or a **virtual staff** profile |
+| Protect your salon | Save the recovery key and a salon backup from Settings |
+| recovery key | 24 words or a file that bring back ownership on a new device |
+| salon backup | A locked file that brings back the salon's data |
 | sync | Paired devices exchange events |
 | offline | The salon still runs; sync waits for a path |
 

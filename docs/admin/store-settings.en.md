@@ -29,6 +29,8 @@ assistant (if offered), Replay guided tour, Sync, Crash & usage reports.
 - Currency: changing it only changes *display*, not numbers already frozen
   on old invoices.
 - Time zone: changing it does **not** shift existing appointment times.
+- **Online booking** — public page and request inbox. Owner turns it on.
+  [Online booking](online-booking.md).
 
 **Billing**
 
@@ -60,6 +62,7 @@ bookings if the store sets **Staff bookings → Only own**.
 
 ## Related pages
 
+- [Online booking](online-booking.md)
 - [AI assistant](../guide/ai-assistant.md)
 - [Services and commission](../guide/services.md)
 - [Printing](../guide/printing.md)

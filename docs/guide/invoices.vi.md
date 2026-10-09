@@ -19,7 +19,8 @@ hóa đơn cũ.
 
 ## Cách làm
 
-**Tạo mới → Hóa đơn mới** (hoặc hoàn tất lịch hẹn):
+Điện thoại: **+** → **Hóa đơn mới**. Máy tính bảng và máy tính bàn: ô
+**Hóa đơn mới** trên Home. Hoặc hoàn tất một lịch hẹn:
 
 - Khách tuỳ chọn (để trống nếu là khách vãng lai)
 - Nhân viên và dịch vụ
@@ -31,6 +32,12 @@ thuế, không phải phí ngân hàng. Bật ở **Cài đặt → Hóa đơn �
 sau Cài đặt thuế). Mặc định tắt. Dòng Card fee áp khi thanh toán thẻ. Trên
 nháp có thể miễn cho hóa đơn đó. Biên lai in tên đã lưu và số tiền, rồi tới
 tổng.
+
+### Khuyến mãi trên hóa đơn
+
+Khuyến mãi tự tính vào hóa đơn. Dòng được giảm hiện giá gốc gạch ngang và giá
+sau giảm. Ai sửa được nháp đều bỏ được khuyến mãi trên một dòng. Chi tiết:
+[Khuyến mãi](promotions.md#bill).
 
 !!! tip "Giọng nói trên điện thoại"
 
@@ -70,6 +77,7 @@ nằm ở trang riêng: [In biên lai](printing.md). Dấu **PHIẾU TẠM TÍNH
 ## Trang liên quan
 
 - [In biên lai](printing.md)
+- [Khuyến mãi](promotions.md)
 - [Cài đặt tiệm](../admin/store-settings.md)
 - [Lịch hẹn](appointments.md)
 - [Trợ lý AI](ai-assistant.md)
