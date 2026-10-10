@@ -26,8 +26,8 @@ khi bạn xác nhận.
 
 ## Điều kiện
 
-- Chủ tiệm: tài khoản trong **Cài đặt → Nâng cao → Đồng bộ**, rồi quay lại trang
-  này. Nếu chưa đăng nhập, màn hình có **Mở Đồng bộ**.
+- Chủ tiệm: đăng nhập bằng Apple hoặc Google ngay trên trang này trước khi
+  bật trang công khai. Đồng bộ qua internet vẫn ở **Cài đặt → Nâng cao → Đồng bộ**.
 - [Dịch vụ](../guide/services.md) muốn khách thấy.
 - Có mạng để **Đăng trang**, rồi để kéo yêu cầu mới và để trang trạng
   thái cập nhật.
@@ -351,9 +351,10 @@ Mỗi người thấy gì:
   khi nào thử lại hoặc cần làm gì. Trang đang chạy giữ nguyên.
 - **Chủ tiệm**, ở **Nhóm tiệm**: giới hạn số nhóm hoặc số tiệm trong
   nhóm. Tên đã nhập vẫn còn.
-- **Chủ tiệm**, ở **Cài đặt → Nâng cao → Đồng bộ**, dưới **Lấy giấy phép cho tiệm
-  này**: tài khoản đã có giấy phép cho 20 tiệm. Tiệm đó vẫn chạy trên máy
-  của tiệm và qua Wi-Fi.
+- **Chủ tiệm**, ở **Cài đặt → Nâng cao → Đồng bộ → Tài khoản**, dưới **Lấy giấy
+  phép cho tiệm này**: tài khoản đã có giấy phép cho 20 tiệm. Đăng nhập ở
+  **Cài đặt → Đặt lịch online** cũng hiện câu này khi bị từ chối vì lý do đó.
+  Tiệm đó vẫn chạy trên máy của tiệm và qua Wi-Fi.
 
 <div class="shot-row" markdown>
 

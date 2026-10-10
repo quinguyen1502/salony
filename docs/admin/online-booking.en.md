@@ -27,8 +27,8 @@ estimate. This device sets the price when you confirm.
 
 ## Prerequisites
 
-- Owner: an account under **Settings → Advanced → Sync**, then come back to this
-  page. **Open Sync** is on the screen if you are not signed in.
+- Owner: sign in with Apple or Google on this page before turning the
+  public page on. Sync over the internet stays under **Settings → Advanced → Sync**.
 - [Services](../guide/services.md) you want customers to see.
 - A network to **Publish**, and later to pull new requests and to update
   the public status page.
@@ -365,9 +365,10 @@ What each person sees:
   when to try again or what frees it. The live page stays as it was.
 - **Owner**, on **Store group**: the group or member limit. The name you
   typed stays.
-- **Owner**, on **Settings → Advanced → Sync**, under **Get a licence for this
-  store**: that the account has licences for 20 stores. That store keeps
-  working on its own devices and over Wi-Fi.
+- **Owner**, on **Settings → Advanced → Sync → Account**, under **Get a licence
+  for this store**: that the account has licences for 20 stores. Signing in
+  on **Settings → Online booking** shows the same sentence when it is refused
+  for that reason. That store keeps working on its own devices and over Wi-Fi.
 
 <div class="shot-row" markdown>
 
