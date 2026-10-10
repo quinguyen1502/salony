@@ -161,10 +161,11 @@ quản lý, sau khi trang đã bật. Ô này ghi có bao nhiêu người đang 
    người đó làm. Người không còn làm thì không có trong danh sách.
 3. **Đăng trang**.
 
-Khách chọn một người cho cả lần ghé. Đó là mong muốn. Tiệm có thể xếp
-người khác. Nếu người đó vẫn đang bật và vẫn đang làm, xác nhận sẽ gán
-người đó. Nếu không, lịch để trống phần nhân viên. Bạn đổi người trên
-lịch hẹn.
+Khách chọn một nhân viên cho mỗi dịch vụ, ngay ở bước đầu. Đó là mong
+muốn. Tiệm có thể xếp người khác. Khi mọi dịch vụ cùng chọn một người, và
+người đó vẫn đang bật và vẫn đang làm, xác nhận sẽ gán người đó. Nếu khách
+chọn khác nhau, hoặc người đó không còn, lịch để trống phần nhân viên.
+Yêu cầu ghi người được hỏi trên từng dịch vụ. Bạn đổi người trên lịch hẹn.
 
 ### Giá trên trang
 

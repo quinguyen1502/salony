@@ -164,11 +164,12 @@ the page is on. The tile shows how many people are listed.
    services they do. Someone with no active profile is not listed.
 3. **Publish**.
 
-The customer can ask for one person for the whole visit. That choice is a
-preference. The salon may assign someone else. If that person is still
-listed and still active, confirm assigns them. If they are not, the
-appointment stays unassigned. You can change the assignment on the
-appointment.
+The customer can ask for one person for each service, on the first step.
+That choice is a preference. The salon may assign someone else. When every
+service names the same person, and that person is still listed and still
+active, confirm assigns them. Otherwise the appointment stays unassigned.
+The request shows the person asked for on each service. You can change the
+assignment on the appointment.
 
 ### Price on the page
 
