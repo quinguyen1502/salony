@@ -1,6 +1,6 @@
 # Downloads
 
-Version **1.2.0** for Android. These are not store listings yet.
+Version **1.2.1** for Android. These are not store listings yet.
 There is no Windows build on this page yet.
 
 ## Overview
@@ -8,8 +8,13 @@ There is no Windows build on this page yet.
 Installers live on GitHub Releases, not on this handbook site. An empty
 slot means no file yet — not a dead link.
 
-1.2.0 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
+1.2.1 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
 internet.
+
+1.2.1 fixes one security problem in 1.2.0 and earlier. On Android,
+showing the recovery key, saving the recovery key file, moving to a new
+device and using this device as a new one now ask for the phone's lock
+(fingerprint, face or PIN). Before, they went ahead without asking.
 
 1.2.0 adds automatic salon backup, archiving a salon, and starting again
 while keeping the lists. Online booking can be turned on. Protect your
@@ -22,12 +27,12 @@ that is already in the salon reconnects it. Nearby pairing stays as in
 
 | Platform | File | Status |
 | --- | --- | --- |
-| Android | [salony-1.2.0-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.0/salony-1.2.0-android-arm64.apk) | 1.2.0 |
+| Android | [salony-1.2.1-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.1/salony-1.2.1-android-arm64.apk) | 1.2.1 |
 
 SHA-256:
 
 ```
-e450a7ee89f71d8fe4c668604602b23ad5c499d91a195835381c613d2c1a43af  salony-1.2.0-android-arm64.apk
+03e48f85f310798c39f7af3495cb229c5be820ebbcfa61504f00a3999170bdc1  salony-1.2.1-android-arm64.apk
 ```
 
 There is no Windows build on this page yet.
