@@ -1,6 +1,6 @@
 # Tải về
 
-Bản **1.2.1** cho Android. Chưa phải bản trên cửa hàng ứng dụng.
+Bản **1.2.2** cho Android. Chưa phải bản trên cửa hàng ứng dụng.
 Hiện chưa có bản Windows trên trang này.
 
 ## Tổng quan
@@ -8,7 +8,13 @@ Hiện chưa có bản Windows trên trang này.
 File cài nằm trên GitHub Releases, không nằm trên trang handbook này.
 Ô trống là chưa đăng file, không phải link hỏng.
 
-Bản 1.2.1 đồng bộ trên Wi-Fi tiệm (hoặc QR). **Chưa** đồng bộ qua internet.
+Bản 1.2.2 đồng bộ trên Wi-Fi tiệm (hoặc QR). **Chưa** đồng bộ qua internet.
+
+Bản 1.2.2 sửa bốn lỗi nhỏ khi chuyển và khôi phục tiệm. Máy vừa khôi
+phục hoặc vừa nhận tiệm mở thẳng danh sách tiệm, không chạy lại bước
+thiết lập ban đầu. Chuyển sang máy mới nói đúng khi máy có nhiều tiệm.
+Nếu chuyển chưa xong, máy cũ báo máy này chưa thay đổi gì. Khi ghép lại
+một máy, app hiện tên máy thay vì một dãy mã.
 
 Bản 1.2.1 sửa một lỗi bảo mật có từ 1.2.0 trở về trước. Trên Android,
 xem mã khôi phục, lưu tệp mã khôi phục, chuyển sang máy mới và dùng máy
@@ -25,12 +31,12 @@ thì ghép lại. Ghép từ thiết bị gần đây giữ như 1.1.1.
 
 | Nền tảng | File | Trạng thái |
 | --- | --- | --- |
-| Android | [salony-1.2.1-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.1/salony-1.2.1-android-arm64.apk) | 1.2.1 |
+| Android | [salony-1.2.2-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.2/salony-1.2.2-android-arm64.apk) | 1.2.2 |
 
 SHA-256:
 
 ```
-03e48f85f310798c39f7af3495cb229c5be820ebbcfa61504f00a3999170bdc1  salony-1.2.1-android-arm64.apk
+8d253943485a213b4bfb349994c4c901f1f542d3e441f71165f8fd4a7d5363d9  salony-1.2.2-android-arm64.apk
 ```
 
 Hiện chưa có bản Windows trên trang này.
