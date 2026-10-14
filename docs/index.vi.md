@@ -38,6 +38,13 @@ lưu **trên máy bạn**, không đưa lên cloud.
 
 </div>
 
+## Salony trong 90 giây { #video }
+
+<!-- Raw HTML is not path-rewritten: this page is served from /vi/. -->
+<video class="home-video" controls playsinline preload="none" poster="../assets/video/salony-intro-vi.jpg" aria-label="Video giới thiệu Salony">
+  <source src="../assets/video/salony-intro-vi.mp4" type="video/mp4">
+</video>
+
 ## Tính năng chính { #features }
 
 <div class="grid cards" markdown>

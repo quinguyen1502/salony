@@ -604,3 +604,14 @@ body:has(.home-landing) #__drawer:checked ~ .md-container .md-tabs {
     max-width: 160px;
   }
 }
+
+/* Homepage intro video (TASK-0549). */
+.md-typeset .home-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 14px 36px rgba(27, 36, 32, 0.22);
+}

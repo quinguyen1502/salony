@@ -3,6 +3,10 @@
 Salon software that runs on your device. Appointments, invoices, staff,
 and reports stay on the machine — not on somebody's server.
 
+[![Salony intro video, 87 s](docs/assets/video/salony-intro-en.jpg)](https://quinguyen1502.github.io/salony/#video)
+
+▶ [Watch the intro video](https://quinguyen1502.github.io/salony/#video)
+
 **Handbook: <https://quinguyen1502.github.io/salony/>**
 (Vietnamese: <https://quinguyen1502.github.io/salony/vi/>)
 
@@ -28,6 +32,10 @@ real customer data, and **never** screenshot a 24-word recovery phrase.
 
 Phần mềm quản lý tiệm salon chạy trên máy của bạn. Lịch hẹn, hóa đơn, nhân
 viên, báo cáo — dữ liệu nằm trên thiết bị, không nằm trên máy chủ của ai.
+
+[![Video giới thiệu Salony, 87 giây](docs/assets/video/salony-intro-vi.jpg)](https://quinguyen1502.github.io/salony/vi/#video)
+
+▶ [Xem video giới thiệu](https://quinguyen1502.github.io/salony/vi/#video)
 
 **Sổ tay: <https://quinguyen1502.github.io/salony/vi/>**
 

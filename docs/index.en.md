@@ -38,6 +38,12 @@ customers stay **on your device** — not in the cloud.
 
 </div>
 
+## Salony in 90 seconds { #video }
+
+<video class="home-video" controls playsinline preload="none" poster="assets/video/salony-intro-en.jpg" aria-label="Salony intro video">
+  <source src="assets/video/salony-intro-en.mp4" type="video/mp4">
+</video>
+
 ## Key features { #features }
 
 <div class="grid cards" markdown>
