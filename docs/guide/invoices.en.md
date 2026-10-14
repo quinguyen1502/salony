@@ -7,23 +7,44 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 **Bills** / **My Bills**. On approve, price, tax, extra fees, and commission
 **freeze**.
 
+The top card shows what was approved today and how it splits by payment
+method. Drafts come next under **Waiting for approval**, then the bills
+already approved, grouped by day. The chips filter by drafts or payment
+method.
+
+An Owner or Manager can tap **Approve** on a draft row without opening it.
+**Undo** stays on screen for five seconds, and nothing is written until it
+goes. On a tablet, bills are a table and the one you tap opens on the right.
+
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Bills on a phone](../images/en/light/bills.png){ loading=lazy }
-<figcaption>Bills</figcaption>
+<figcaption>Phone</figcaption>
+</figure>
+
+<figure class="shot-wide" markdown>
+![Bills on a tablet](../images/en/light/bills-wide.png){ loading=lazy }
+<figcaption>Tablet and desktop</figcaption>
 </figure>
 
 </div>
 
 ## Usage
 
-**+** → **New invoice** on a phone, the **New invoice** tile on Home on a
-tablet or desktop, or after completing an appointment:
+**+** → **New invoice** on a phone, **Bill** in the top bar on a tablet or
+desktop, or after completing an appointment. The form is one screen, with
+the total always at the bottom:
 
-- Optional customer (walk-in if empty)
-- Staff and services
-- Discount, tax (store default if enabled), tip, extra fees, payment method
+- Optional customer (walk-in if empty) and appointment
+- Staff, picked from chips. With suggestions on, the chips are in turn
+  order and the person who should take the next customer has a star; see
+  [Staff turns](turns.md)
+- Payment method, picked from chips
+- Services: tap one to add it. **Frequent** shows the ones used most; the
+  other chips are your categories, and **All** opens the full list
+- Discount, tax (store default if enabled), tip, extra fees under
+  **Adjustments**; **Details** under the total shows how it adds up
 
 An extra fee is a store add-on — not a service, not tax, not a bank charge.
 Turn it on in **Settings → Billing → Extra fees** (the row after Tax). It is

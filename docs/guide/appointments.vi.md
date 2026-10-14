@@ -5,14 +5,28 @@ tiệm và Quản lý tạo lịch mới.
 
 ## Tổng quan
 
-Màn **Đặt lịch** (Chủ / Quản lý) hoặc **Lịch của tôi** (Nhân viên). Nhân viên
+Màn **Lịch hẹn** (Chủ / Quản lý) hoặc **Lịch của tôi** (Nhân viên). Nhân viên
 **không** có nút đặt lịch mới.
+
+Trên cùng là dải ngày; vuốt để sang tuần khác, hoặc bấm biểu tượng lịch để
+nhảy tới ngày cần xem. **Theo nhân viên** chia mỗi nhân viên một cột, thêm
+cột **Chưa xếp** khi có lịch chưa gán ai, và một vạch đỏ ở giờ hiện tại.
+**Danh sách** hiện cùng ngày đó thành từng dòng. Bấm vào chỗ trống trong một
+cột để đặt lịch đúng giờ đó với người đó.
+
+Trên máy tính bảng, lịch tháng và bộ lọc nhân viên nằm bên trái; lịch bạn
+bấm vào mở ra bên phải.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Đặt lịch trên điện thoại](../images/vi/light/bookings.png){ loading=lazy }
-<figcaption>Đặt lịch</figcaption>
+![Lịch hẹn trên điện thoại](../images/vi/light/bookings.png){ loading=lazy }
+<figcaption>Điện thoại</figcaption>
+</figure>
+
+<figure class="shot-wide" markdown>
+![Lịch hẹn trên máy tính bảng](../images/vi/light/bookings-wide.png){ loading=lazy }
+<figcaption>Máy tính bảng và máy tính bàn</figcaption>
 </figure>
 
 </div>
@@ -27,7 +41,7 @@ Có [dịch vụ](services.md) và [nhân viên](staff.md) (người thật ho�
 === "Chủ tiệm / Quản lý"
 
     Điện thoại: bấm **+** ở thanh dưới, chọn **Đặt lịch mới**. Máy tính bảng
-    và máy tính bàn: ô **Đặt lịch mới** trên Home. Rồi điền:
+    và máy tính bàn: nút **Đặt lịch** trên thanh trên cùng. Rồi điền:
 
     1. Khách (tạo nhanh nếu chưa có)
     2. Dịch vụ — có thể nhiều dịch vụ

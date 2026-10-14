@@ -74,6 +74,7 @@ plugins:
             Run the day: Chạy một ngày
             Appointments: Lịch hẹn
             Invoices and receipts: Hóa đơn và biên lai
+            Staff turns: Lượt nhân viên
             Printing: In biên lai
             Thermal printers: Máy in nhiệt
             Customers and staff: Khách và nhân viên
@@ -138,6 +139,7 @@ nav:
           - Run the day: guide/run-the-day.md
           - Appointments: guide/appointments.md
           - Invoices and receipts: guide/invoices.md
+          - Staff turns: guide/turns.md
           - Printing: guide/printing.md
           - Thermal printers: guide/printers.md
       - Customers and staff:

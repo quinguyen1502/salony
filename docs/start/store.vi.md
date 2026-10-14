@@ -20,7 +20,7 @@ mời / thêm thiết bị.
 
 === "Tạo tiệm"
 
-    Trên **Chọn tiệm**, bấm **Tạo tiệm**. Đặt tên, tiền tệ, logo nếu muốn. Máy
+    Trên **Chọn tiệm**, bấm nút **Tạo tiệm** ở dưới. Đặt tên, tiền tệ, logo nếu muốn. Máy
     này thành **Chủ tiệm**.
 
     Một người có thể mở nhiều tiệm. Vai trò ở tiệm này không mang sang tiệm kia.
@@ -28,8 +28,9 @@ mời / thêm thiết bị.
 === "Vào tiệm có sẵn"
 
     Chủ tiệm hoặc Quản lý ghép máy này với máy của họ rồi gửi lời mời. Trên
-    máy này, mở **Tham gia tiệm** (nút mã QR trên màn **Chọn tiệm**) (hoặc màn chào) và giữ màn
-    đó mở trong lúc họ làm.
+    máy này, bấm **Tham gia tiệm bằng mã QR** dưới danh sách tiệm trên màn
+    **Chọn tiệm** (hoặc bắt đầu từ màn chào), rồi để mã QR mở trong lúc họ
+    làm.
 
     Thêm máy thứ hai của chính bạn (iPad chẳng hạn) cũng làm y như vậy: máy
     Chủ tiệm bắt đầu từ **Cài đặt → Nâng cao → Thêm thiết bị khác**.

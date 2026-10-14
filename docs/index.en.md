@@ -11,7 +11,7 @@ hide:
 
 <figure class="device device--phone" markdown>
 ![Salony on a phone](images/en/light/home.png)
-<figcaption>Phone · Home</figcaption>
+<figcaption>Phone · Today</figcaption>
 </figure>
 
 <figure class="device device--tablet" markdown>

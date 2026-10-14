@@ -1,8 +1,8 @@
 # Máy tính bàn
 
-macOS và Windows làm được việc quầy, giao diện giống máy tính bảng: các ô
-lối tắt trên Home mở cùng các màn như trên điện thoại. Nhân viên thấy giao
-diện điện thoại, nằm trong một cột ở giữa màn hình.
+macOS và Windows làm được việc quầy, giao diện giống máy tính bảng: thanh
+trên cùng mở cùng các màn như trên điện thoại. Nhân viên thấy giao diện điện
+thoại, nằm trong một cột ở giữa màn hình.
 
 ## Tổng quan
 
@@ -11,7 +11,7 @@ Máy tính tham gia tiệm như một máy riêng và đồng bộ giống đi�
 <div class="shot-wide-only" markdown>
 
 <figure markdown>
-![Home trên máy tính bàn](../images/vi/light/home-wide.png){ loading=lazy }
+![Hôm nay trên máy tính bàn](../images/vi/light/home-wide.png){ loading=lazy }
 <figcaption>Máy tính bàn (cùng layout máy tính bảng)</figcaption>
 </figure>
 

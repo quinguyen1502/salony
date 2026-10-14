@@ -1,8 +1,8 @@
 # Desktop
 
-macOS and Windows run the full front desk, in the tablet layout: Home's
-shortcut tiles open the same screens as the phone. Staff get the phone
-layout in a centred column.
+macOS and Windows run the full front desk, in the tablet layout: the top
+bar opens the same screens as the phone. Staff get the phone layout in a
+centred column.
 
 ## Overview
 
@@ -11,7 +11,7 @@ The PC joins the salon as its own device and syncs like a phone.
 <div class="shot-wide-only" markdown>
 
 <figure markdown>
-![Home on a desktop](../images/en/light/home-wide.png){ loading=lazy }
+![Today on a desktop](../images/en/light/home-wide.png){ loading=lazy }
 <figcaption>Desktop (same layout as tablet)</figcaption>
 </figure>
 

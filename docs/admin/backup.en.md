@@ -227,19 +227,23 @@ your recovery key to turn it back on*.
 
 #### When automatic backup stops working
 
-If Salony cannot save to the folder, the tile and the screen say *Not working
-since {when}* and why, for example *Salony can no longer open iCloud Drive ›
-Salony.* Tap **Fix**:
+If Salony cannot save to the folder, the tile says *Not working since
+{when}* and why, for example *Salony can no longer open iCloud Drive ›
+Salony.* Open it: a red box at the top says *Couldn't back up since {when}*,
+and the switch shows when the last backup worked.
 
-- When the folder cannot be opened (moved, deleted, or signed out), pick the
-  folder again.
-- Otherwise Salony tries again at once.
+- When the folder cannot be opened (moved, deleted, or signed out), tap
+  **Choose the folder again**.
+- Otherwise tap **Retry**, and Salony tries again at once.
+
+**Kept** shows how long backups stay in the folder. **How are backups
+kept?** at the bottom explains the rest.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Automatic backup not working](../images/en/light/protect-auto-failing.png){ loading=lazy }
-<figcaption>Not working, with Fix</figcaption>
+<figcaption>Not working, with the folder to choose again</figcaption>
 </figure>
 
 </div>
@@ -491,7 +495,7 @@ see [How the recovery key works](../tech/identity.md).
 | *This backup belongs to a different recovery key* | Restore that key first (step 1), then choose the backup again. An automatic backup has no password, so only its own recovery key opens it |
 | *This backup file is damaged and can't be restored* | Choose another backup. Automatic backup keeps several in the folder |
 | **Salon backup** reads *on this device* | Save a backup to a folder that syncs, or turn on **Automatic backup** with one |
-| **Automatic backup** reads *Not working since…* | Open it and tap **Fix** |
+| **Automatic backup** reads *Not working since…* | Open it and tap **Choose the folder again** or **Retry** |
 | No **Automatic backup** tile | Android, and staff devices, do not have it. Back up by hand |
 
 ## Related pages

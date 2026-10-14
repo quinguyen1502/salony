@@ -195,14 +195,14 @@ sách và link nhóm hết dùng.
 
 ### Xem yêu cầu
 
-Trên **Đặt lịch**, banner hiện khi còn ít nhất một yêu cầu đang chờ.
+Trên **Lịch hẹn**, banner hiện khi còn ít nhất một yêu cầu đang chờ.
 Hoặc mở **Yêu cầu online** từ **Cài đặt → Đặt lịch online**.
 
 <div class="shot-phones" markdown>
 
 <figure markdown>
-![Banner yêu cầu online trên Đặt lịch](../images/vi/light/online-booking-banner.png){ loading=lazy }
-<figcaption>Banner trên Đặt lịch</figcaption>
+![Banner yêu cầu online trên Lịch hẹn](../images/vi/light/online-booking-banner.png){ loading=lazy }
+<figcaption>Banner trên Lịch hẹn</figcaption>
 </figure>
 
 <figure markdown>

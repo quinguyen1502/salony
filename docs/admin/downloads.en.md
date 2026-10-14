@@ -1,6 +1,6 @@
 # Downloads
 
-Version **1.2.2** for Android. These are not store listings yet.
+Version **1.3.0** for Android. These are not store listings yet.
 There is no Windows build on this page yet.
 
 ## Overview
@@ -8,8 +8,22 @@ There is no Windows build on this page yet.
 Installers live on GitHub Releases, not on this handbook site. An empty
 slot means no file yet — not a dead link.
 
-1.2.2 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
+1.3.0 syncs on the salon Wi-Fi (or QR). It does **not** sync over the
 internet.
+
+1.3.0 is the new look. On a phone, the bottom bar has five buttons with
+Create in the middle, and More is one of them. Today shows who is in
+service, who is next, what needs approving and which staff are free. Bills
+shows the day's takings and approves a bill in one tap, with a few seconds
+to undo. A new bill fits on one screen. On a tablet or computer, a bar
+across the top reaches every page in one click, and lists open their
+details beside them. A new salon starts in the phone's time zone.
+
+An owner or manager can pick the salon's colour in Store profile, and every
+device of the salon follows. The app also suggests who should take the next
+customer from the day's turns, with a turn board to adjust by hand and Turn
+rules in Settings. See [Staff turns](../guide/turns.md). Devices on 1.2.2 or
+older ignore the colour and the turns until they update.
 
 1.2.2 fixes four small problems in moving and restoring salons. A device
 that restores or receives its salons opens on the salon list instead of
@@ -33,12 +47,12 @@ that is already in the salon reconnects it. Nearby pairing stays as in
 
 | Platform | File | Status |
 | --- | --- | --- |
-| Android | [salony-1.2.2-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.2.2/salony-1.2.2-android-arm64.apk) | 1.2.2 |
+| Android | [salony-1.3.0-android-arm64.apk](https://github.com/quinguyen1502/salony/releases/download/v1.3.0/salony-1.3.0-android-arm64.apk) | 1.3.0 |
 
 SHA-256:
 
 ```
-8d253943485a213b4bfb349994c4c901f1f542d3e441f71165f8fd4a7d5363d9  salony-1.2.2-android-arm64.apk
+1abb4aa71ffeed21b2ac25fbc417cf3b6b877cf883a2930817e3addfdedf1609  salony-1.3.0-android-arm64.apk
 ```
 
 There is no Windows build on this page yet.

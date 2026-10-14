@@ -11,7 +11,7 @@ hide:
 
 <figure class="device device--phone" markdown>
 ![Salony trên điện thoại](images/vi/light/home.png)
-<figcaption>Điện thoại · Home</figcaption>
+<figcaption>Điện thoại · Hôm nay</figcaption>
 </figure>
 
 <figure class="device device--tablet" markdown>

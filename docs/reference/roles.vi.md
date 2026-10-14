@@ -10,7 +10,7 @@ Nhãn trong app: **Chủ tiệm**, **Quản lý**, **Nhân viên**.
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Home của Chủ tiệm](../images/vi/light/home.png){ loading=lazy }
+![Hôm nay của Chủ tiệm](../images/vi/light/home.png){ loading=lazy }
 <figcaption>Chủ tiệm / Quản lý</figcaption>
 </figure>
 
@@ -21,8 +21,9 @@ Nhãn trong app: **Chủ tiệm**, **Quản lý**, **Nhân viên**.
 
 </div>
 
-Thanh dưới đổi theo vai trò: Chủ tiệm có **Đặt lịch**, Nhân viên chỉ có
-**Lịch của tôi** và **Hóa đơn của tôi**.
+Thanh dưới đổi theo vai trò: Chủ tiệm và Quản lý có **Hôm nay**, **Lịch
+hẹn**, **+**, **Hóa đơn** và **Thêm**; Nhân viên chỉ có **Lịch của tôi** và
+**Hóa đơn của tôi**.
 
 Nhân viên thấy giao diện điện thoại này trên mọi máy. Trên máy tính bảng hay
 máy tính, app nằm trong một cột rộng bằng điện thoại ở giữa màn hình; Chủ

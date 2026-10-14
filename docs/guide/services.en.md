@@ -45,7 +45,8 @@ snapshot from approval.
 ### Categories
 
 On the form, open **Category** → **Manage categories**. Add groups (Hair,
-Nails) so booking / bill forms stay short.
+Nails) so booking / bill forms stay short. **Add category** at the bottom
+adds one; **⋯** on a row renames or archives it.
 
 <div class="shot-phones" markdown>
 
@@ -65,8 +66,9 @@ Archiving a category does not delete invoice history that used that service.
 
 ### Detail and commission
 
-Tap a service for duration, price, performance. **Commission settings** on
-the detail (or on the create form):
+Tap a service for duration, price, performance. On the detail, the
+**Current commission** row opens **Commission settings** (also on the create
+form):
 
 <div class="shot-phones" markdown>
 

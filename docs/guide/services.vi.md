@@ -43,7 +43,8 @@ CSV. Nhân viên chỉ dùng danh sách khi lập hóa đơn nháp, không sửa
 ### Danh mục
 
 Trên form, mở **Danh mục** → **Quản lý danh mục**. Thêm nhóm (ví dụ Tóc,
-Móng) để form đặt lịch / hóa đơn gọn hơn.
+Móng) để form đặt lịch / hóa đơn gọn hơn. Nút **Thêm danh mục** ở dưới để
+thêm; nút **⋯** trên mỗi dòng để đổi tên hoặc lưu trữ.
 
 <div class="shot-phones" markdown>
 
@@ -63,8 +64,8 @@ Xoá / lưu trữ danh mục không xoá lịch sử hóa đơn đã dùng dịc
 
 ### Chi tiết và hoa hồng
 
-Bấm một dịch vụ để xem thời lượng, giá, hiệu suất. **Cài đặt hoa hồng** trên
-chi tiết (hoặc trên form lúc tạo):
+Bấm một dịch vụ để xem thời lượng, giá, hiệu suất. Trên chi tiết, dòng
+**Hoa hồng hiện tại** mở **Cài đặt hoa hồng** (form lúc tạo cũng có):
 
 <div class="shot-phones" markdown>
 

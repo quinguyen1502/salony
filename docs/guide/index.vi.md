@@ -18,6 +18,7 @@ check-in. Rồi đặt lịch, lập hóa đơn, giữ khách, trả lương, xe
     [Tổng quan ngày](run-the-day.md) ·
     [Lịch hẹn](appointments.md) ·
     [Hóa đơn](invoices.md) ·
+    [Lượt nhân viên](turns.md) ·
     [In biên lai](printing.md) ·
     [Máy in nhiệt](printers.md)
 

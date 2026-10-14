@@ -7,6 +7,10 @@ Danh bạ khách **của tiệm này**. Không có hồ sơ khách dùng chung t
 Tên, số điện thoại, ảnh nếu muốn. Trùng số thì app cảnh báo, bạn tự quyết
 có dùng luôn hay tạo mới (không gộp tự động).
 
+Mỗi dòng hiện số lượt, lần ghé gần nhất và tổng chi tiêu. Các nút lọc chia
+danh sách thành **Khách quen**, **Lâu chưa ghé** và **Mới**, mỗi nút kèm số
+khách.
+
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
@@ -20,14 +24,15 @@ có dùng luôn hay tạo mới (không gộp tự động).
 
 === "Chủ tiệm / Quản lý"
 
-    **Thêm → Khách hàng**, hoặc ngay trên form đặt lịch / hóa đơn.
+    Điện thoại: **Thêm → Khách hàng**. Máy tính bảng / máy tính bàn: tab
+    **Khách hàng**. Hoặc ngay trên form đặt lịch / hóa đơn.
 
 === "Nhân viên"
 
     Không có ô Khách hàng trong **Thêm**. Tạo khách từ form **Hóa đơn mới**.
 
-Chi tiết khách hiện lịch đã đặt, hóa đơn, và vài con số thống kê, lấy từ dữ
-liệu tiệm trên máy.
+Chi tiết khách có ba nút **Gọi**, **Đặt lịch**, **Tạo hóa đơn** ở trên cùng,
+rồi số lượt, chi tiêu và lịch sử, lấy từ dữ liệu tiệm trên máy.
 
 <div class="shot-phones" markdown>
 

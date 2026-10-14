@@ -221,19 +221,23 @@ tự tắt và dòng này ghi *Đang tắt · lưu mã khôi phục để bật 
 
 #### Khi sao lưu tự động không chạy
 
-Nếu Salony không lưu được vào thư mục, dòng **Sao lưu tự động** và màn chi
-tiết ghi *Không chạy từ {when}* kèm lý do, ví dụ *Salony không mở được iCloud
-Drive › Salony nữa.* Bấm **Sửa**:
+Nếu Salony không lưu được vào thư mục, dòng **Sao lưu tự động** ghi *Không
+chạy từ {when}* kèm lý do, ví dụ *Salony không mở được iCloud Drive › Salony
+nữa.* Mở dòng đó ra: khung đỏ trên cùng ghi *Không sao lưu được từ {when}.*,
+và nút gạt cho biết lần cuối sao lưu thành công là khi nào.
 
-- Nếu không mở được thư mục (bị chuyển chỗ, bị xoá, hoặc đã đăng xuất), chọn
-  lại thư mục.
-- Lỗi khác thì app thử lại ngay.
+- Nếu không mở được thư mục (bị chuyển chỗ, bị xoá, hoặc đã đăng xuất), bấm
+  **Chọn lại thư mục**.
+- Lỗi khác thì bấm **Thử lại**, app thử lại ngay.
+
+Dòng **Giữ lại** cho biết bản sao lưu nằm trong thư mục bao lâu. **Bản sao
+lưu được giữ thế nào?** ở cuối màn giải thích phần còn lại.
 
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Sao lưu tự động không chạy](../images/vi/light/protect-auto-failing.png){ loading=lazy }
-<figcaption>Không chạy, có nút Sửa</figcaption>
+<figcaption>Không chạy, có nút chọn lại thư mục</figcaption>
 </figure>
 
 </div>
@@ -474,7 +478,7 @@ hiểu kỹ hơn, xem [Mã khôi phục hoạt động thế nào](../tech/ident
 | *Bản sao lưu này thuộc một mã khôi phục khác* | Khôi phục mã đó trước (bước 1), rồi chọn lại bản sao lưu. Bản sao lưu tự động không có mật khẩu, chỉ đúng mã khôi phục của nó mới mở được |
 | *Tệp sao lưu này bị hỏng, không khôi phục được* | Chọn bản khác. Sao lưu tự động giữ nhiều bản trong thư mục |
 | **Bản sao lưu tiệm** ghi *trên máy này* | Lưu một bản vào thư mục có đồng bộ, hoặc bật **Sao lưu tự động** với thư mục đó |
-| **Sao lưu tự động** ghi *Không chạy từ…* | Mở ra và bấm **Sửa** |
+| **Sao lưu tự động** ghi *Không chạy từ…* | Mở ra, bấm **Chọn lại thư mục** hoặc **Thử lại** |
 | Không thấy **Sao lưu tự động** | Android và máy nhân viên chưa có. Hãy sao lưu tay |
 
 ## Trang liên quan

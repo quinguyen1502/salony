@@ -20,7 +20,8 @@ by invitation / add-device.
 
 === "Create a store"
 
-    On **Select store**: **Create store**. Name, currency, optional logo. This
+    On **Select store**: the **Create store** button at the bottom. Name,
+    currency, optional logo. This
     device becomes **Owner**.
 
     One person can belong to several stores; the role is not shared across
@@ -29,8 +30,9 @@ by invitation / add-device.
 === "Join an existing store"
 
     An owner or manager pairs this device with theirs and sends an
-    invitation. On this device, open **Join a store** (the QR button on **Select store**) (or the
-    welcome screen) and keep it open while they do.
+    invitation. On this device, tap **Join a store with a QR code** under the
+    salon list on **Select store** (or start from the welcome screen), and
+    keep the QR open while they do.
 
     Adding a second device of your own, such as an iPad, works the same way:
     the owner device starts from **Settings → Advanced → Add another device**.

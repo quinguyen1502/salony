@@ -18,6 +18,7 @@ check-in. Then book, bill, keep customers, pay the team, read the numbers.
     [Day overview](run-the-day.md) ·
     [Appointments](appointments.md) ·
     [Invoices](invoices.md) ·
+    [Staff turns](turns.md) ·
     [Printing](printing.md) ·
     [Thermal printers](printers.md)
 

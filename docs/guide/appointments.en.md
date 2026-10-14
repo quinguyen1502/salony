@@ -7,11 +7,25 @@ appointments.
 
 **Bookings** / **My Bookings**. **Staff cannot create appointments.**
 
+A strip of days runs across the top; swipe it to move a week, or tap the
+calendar icon to jump. **By staff** shows one column per staff member, plus
+an **Unassigned** column when a booking has nobody, and a red line at the
+current time. **List** shows the same day as rows. Tap an empty slot in a
+column to book that time with that person.
+
+On a tablet the month calendar and a staff filter sit on the left, and the
+booking you tap opens on the right.
+
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Bookings on a phone](../images/en/light/bookings.png){ loading=lazy }
-<figcaption>Bookings</figcaption>
+<figcaption>Phone</figcaption>
+</figure>
+
+<figure class="shot-wide" markdown>
+![Bookings on a tablet](../images/en/light/bookings-wide.png){ loading=lazy }
+<figcaption>Tablet and desktop</figcaption>
 </figure>
 
 </div>
@@ -26,7 +40,7 @@ staff). The time must match [availability](schedule.md).
 === "Owner / Manager"
 
     Phone: tap **+** in the bottom bar, then **New appointment**. Tablet or
-    desktop: the **New appointment** tile on Home. Then fill in:
+    desktop: **Booking** in the top bar. Then fill in:
 
     1. Customer (quick-create if needed)
     2. Services — more than one is allowed
@@ -67,7 +81,7 @@ staff). The time must match [availability](schedule.md).
 | Cancelled | Will not happen |
 | No-show | Did not arrive |
 
-Unassigned bookings sit in needs-attention. Assign / reassign / unassign on
+Unassigned bookings sit in **Needs attention** on Today. Assign / reassign / unassign on
 the detail screen — do not create a second booking.
 
 Owner / Manager change status on appointment detail. Staff see bookings they

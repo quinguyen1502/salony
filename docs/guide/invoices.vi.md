@@ -8,24 +8,45 @@ Màn **Hóa đơn** (Chủ / Quản lý) hoặc **Hóa đơn của tôi** (Nhân
 duyệt, giá, thuế, phí thêm, hoa hồng **khóa lại**, nên đổi giá sau không đụng
 hóa đơn cũ.
 
+Thẻ trên cùng là tổng đã duyệt hôm nay, chia theo phương thức thanh toán.
+Kế đó là nhóm **Chờ duyệt** gồm các hóa đơn nháp, rồi tới các hóa đơn đã
+duyệt, xếp theo ngày. Các nút lọc phía trên chọn riêng nháp hoặc một phương
+thức thanh toán.
+
+Chủ tiệm hoặc Quản lý có thể bấm **Duyệt** ngay trên dòng nháp, không cần mở
+hóa đơn. Nút **Hoàn tác** hiện trong năm giây, và chưa có gì được ghi cho tới
+khi nút đó tắt. Trên máy tính bảng, hóa đơn xếp thành bảng; hóa đơn bạn bấm
+vào mở ra bên phải.
+
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
 ![Hóa đơn trên điện thoại](../images/vi/light/bills.png){ loading=lazy }
-<figcaption>Hóa đơn</figcaption>
+<figcaption>Điện thoại</figcaption>
+</figure>
+
+<figure class="shot-wide" markdown>
+![Hóa đơn trên máy tính bảng](../images/vi/light/bills-wide.png){ loading=lazy }
+<figcaption>Máy tính bảng và máy tính bàn</figcaption>
 </figure>
 
 </div>
 
 ## Cách làm
 
-Điện thoại: **+** → **Hóa đơn mới**. Máy tính bảng và máy tính bàn: ô
-**Hóa đơn mới** trên Home. Hoặc hoàn tất một lịch hẹn:
+Điện thoại: **+** → **Hóa đơn mới**. Máy tính bảng và máy tính bàn: nút
+**Hóa đơn** trên thanh trên cùng. Hoặc hoàn tất một lịch hẹn. Form gói gọn
+trong một màn, tổng tiền luôn nằm ở dưới:
 
-- Khách tuỳ chọn (để trống nếu là khách vãng lai)
-- Nhân viên và dịch vụ
-- Giảm giá, thuế (mặc định tiệm nếu bật), tip, phí thêm, phương thức thanh
-  toán
+- Khách tuỳ chọn (để trống nếu là khách vãng lai) và lịch hẹn
+- Nhân viên, chọn bằng nút. Nếu tiệm bật gợi ý, các nút xếp theo lượt và
+  người nên làm khách tiếp theo có ngôi sao; xem
+  [Lượt nhân viên](turns.md)
+- Phương thức thanh toán, chọn bằng nút
+- Dịch vụ: bấm là thêm vào hóa đơn. **Hay dùng** là các dịch vụ dùng nhiều
+  nhất; các nút còn lại là danh mục, **Tất cả** mở cả danh sách
+- Giảm giá, thuế (mặc định tiệm nếu bật), tip, phí thêm nằm ở **Điều
+  chỉnh**; **Chi tiết** dưới tổng tiền cho thấy tổng được cộng thế nào
 
 Phí thêm là khoản tiệm cộng vào hóa đơn: không phải dịch vụ, không phải
 thuế, không phải phí ngân hàng. Bật ở **Cài đặt → Hóa đơn → Phí thêm** (ngay

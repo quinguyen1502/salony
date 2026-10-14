@@ -5,9 +5,9 @@ the bill on its own, so nobody has to remember a sale or work it out.
 
 ## Overview
 
-Owner / Manager: **More → Promotions**, the row right after Services. On a
-tablet or desktop it is the **Promotions** tile on Home, right after
-Services. Staff have no Promotions entry.
+Owner / Manager: **More → Promotions**, the last row under **Money**. On a
+tablet or desktop, open **All → Promotions** in the top bar. Staff have no
+Promotions entry.
 
 <div class="shot-row" markdown>
 

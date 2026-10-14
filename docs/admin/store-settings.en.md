@@ -6,7 +6,9 @@ Store profile, hours, billing, commission, language, appearance, widget.
 
 **Settings** groups salon rows as **Store**, **Billing**, and **Staff**,
 then **App** for this device. Some rows need Owner or Manager — the app
-says **Requires owner or manager permission.**
+says **Requires owner or manager permission.** Rows show their current
+value, such as the currency or tax rate, and the search box at the top finds
+a setting by name.
 
 <div class="shot-row" markdown>
 
@@ -24,13 +26,28 @@ assistant (if offered), Replay guided tour, Sync, Crash & usage reports.
 
 **Store**
 
-- **Store profile** — name, logo, notes. Save is per-section.
+- **Store profile** — name, logo, brand colour, notes. Save is per-section.
+- **Brand colour** — pick one of eight colours. Buttons, selected chips, the
+  **Today** card and the tablet top bar take it, on every device of the
+  store, staff devices too. The profile screen previews the colour at once;
+  nothing is saved until **Save changes**. **Use default colour** goes back
+  to Teal. Status colours, report charts and printed receipts stay as they
+  are. An Owner or Manager can change it.
 - **Operating hours** — when the salon is open each week.
 - Currency: changing it only changes *display*, not numbers already frozen
   on old invoices.
 - Time zone: changing it does **not** shift existing appointment times.
 - **Online booking** — public page and request inbox. Owner turns it on.
   [Online booking](online-booking.md).
+
+<div class="shot-row" markdown>
+
+<figure class="shot-phone" markdown>
+![Choosing a brand colour](../images/en/light/settings-brand-color.png){ loading=lazy }
+<figcaption>Brand colour, previewing Rose</figcaption>
+</figure>
+
+</div>
 
 **Billing**
 
@@ -46,6 +63,8 @@ assistant (if offered), Replay guided tour, Sync, Crash & usage reports.
 - **Commission settings** — default %. Order: service beats staff, staff
   beats store default.
 - **Staff bookings** — whether a Staff login sees only their bookings.
+- **Turn rules** — suggesting who takes the next customer, and how turns
+  are counted. See [Staff turns](../guide/turns.md).
 
 **App** (this device)
 

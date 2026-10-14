@@ -5,8 +5,8 @@ vào hóa đơn, không ai phải nhớ hay tự trừ.
 
 ## Tổng quan
 
-Chủ / Quản lý: **Thêm → Khuyến mãi**, dòng ngay sau Dịch vụ. Trên máy tính
-bảng / máy tính bàn, đó là ô **Khuyến mãi** trên Home, ngay sau Dịch vụ. Nhân
+Chủ / Quản lý: **Thêm → Khuyến mãi**, dòng cuối nhóm **Tiền**. Trên máy tính
+bảng / máy tính bàn, mở **Tất cả → Khuyến mãi** trên thanh trên cùng. Nhân
 viên không có mục Khuyến mãi.
 
 <div class="shot-row" markdown>

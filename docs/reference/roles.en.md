@@ -10,7 +10,7 @@ In-app labels: **Owner**, **Manager**, **Staff**.
 <div class="shot-row" markdown>
 
 <figure class="shot-phone" markdown>
-![Owner home](../images/en/light/home.png){ loading=lazy }
+![Owner Today](../images/en/light/home.png){ loading=lazy }
 <figcaption>Owner / Manager</figcaption>
 </figure>
 
@@ -21,8 +21,9 @@ In-app labels: **Owner**, **Manager**, **Staff**.
 
 </div>
 
-The bottom bar changes with the role: an Owner gets **Bookings**, a Staff
-device gets only **My schedule** and **My invoices**.
+The bottom bar changes with the role: an Owner or Manager gets **Today**,
+**Bookings**, **+**, **Bills**, and **More**; a Staff device gets only **My
+schedule** and **My invoices**.
 
 Staff see this phone layout on every device. On a tablet or computer it sits
 in a phone-width column in the middle of the screen; an Owner or Manager on
