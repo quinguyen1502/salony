@@ -14,6 +14,11 @@ nhập của tôi**. Số lấy từ lúc duyệt hóa đơn, không tính lại
 <figcaption>Thu nhập</figcaption>
 </figure>
 
+<figure class="shot-phone" markdown>
+![Thu nhập của nhân viên trên điện thoại](../images/vi/light/earnings-staff.png){ loading=lazy }
+<figcaption>Nhân viên: chờ xác nhận</figcaption>
+</figure>
+
 </div>
 
 ## Cách làm

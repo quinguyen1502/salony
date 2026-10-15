@@ -14,6 +14,11 @@ Figures come from the snapshot at approve — not the *current* %.
 <figcaption>Earnings</figcaption>
 </figure>
 
+<figure class="shot-phone" markdown>
+![A staff member’s earnings on a phone](../images/en/light/earnings-staff.png){ loading=lazy }
+<figcaption>Staff: waiting to acknowledge</figcaption>
+</figure>
+
 </div>
 
 ## Usage

@@ -615,3 +615,224 @@ body:has(.home-landing) #__drawer:checked ~ .md-container .md-tabs {
   background: #fff;
   box-shadow: 0 14px 36px rgba(27, 36, 32, 0.22);
 }
+
+/* Homepage pitch (TASK-0556): badges under the hero, feature rows with a
+   phone shot, three start steps, and a closing call to action. */
+.md-typeset .home-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.1rem 0 0.4rem;
+}
+
+.md-typeset .home-badges span {
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(94, 214, 200, 0.35);
+  background: rgba(94, 214, 200, 0.08);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.md-typeset .home-lead {
+  max-width: 40rem;
+  margin: 0.4rem auto 1.6rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .home-feature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem 3.5rem;
+  margin: 3.25rem 0;
+}
+
+.md-typeset .home-feature__shot {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.md-typeset .home-feature__shot p {
+  margin: 0;
+}
+
+.md-typeset .home-feature__shot img {
+  height: 440px;
+  width: auto;
+  max-width: 100%;
+}
+
+.md-typeset .home-feature__body {
+  flex: 1 1 18rem;
+  max-width: 28rem;
+}
+
+.md-typeset .home-feature__body .home-eyebrow {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .home-landing .home-feature__body h3 {
+  margin: 0.35rem 0 0.7rem;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .home-feature__body > p {
+  font-size: 0.85rem;
+  line-height: 1.65;
+}
+
+@media screen and (min-width: 60em) {
+  .md-typeset .home-feature--reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .home-feature__shot img {
+    height: 360px;
+  }
+}
+
+.md-typeset .home-steps > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  counter-reset: step;
+}
+
+.md-typeset .home-steps > ul > li {
+  position: relative;
+  margin: 0;
+  padding: 1.2rem 1.2rem 1rem 3.6rem;
+  border-radius: 12px;
+  background: var(--md-code-bg-color);
+  counter-increment: step;
+}
+
+.md-typeset .home-steps > ul > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 1.1rem;
+  top: 1.15rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: var(--md-accent-fg-color);
+  color: #0a1f1d;
+  font-weight: 800;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.md-typeset .home-steps > ul > li > p {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+}
+
+.md-typeset .home-steps > ul > li > p:first-child {
+  font-size: 0.95rem;
+}
+
+.md-typeset .home-note {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .home-cta {
+  margin: 3.5rem 0 1.5rem;
+  padding: 2.2rem 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+  background: radial-gradient(120% 120% at 50% 0%, #0a4547 0%, #002c2e 70%);
+}
+
+.md-typeset .home-landing .home-cta h2 {
+  margin: 0 0 0.5rem;
+}
+
+.md-typeset .home-cta > p {
+  margin: 0.4rem 0;
+}
+
+.md-typeset .home-cta .md-button {
+  margin: 0.6rem 0.4rem 0;
+}
+
+.md-typeset .home-cta .md-button--primary {
+  background-color: var(--md-typeset-a-color);
+  color: #0a1f1d;
+  border-color: transparent;
+}
+
+.md-typeset .home-landing .home-hero h1 {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .grid.cards.home-cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+}
+
+/* Section titles sit centred over their centred lead, so each section reads
+   as one block. */
+.md-typeset .home-landing > h2 {
+  margin-top: 3.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .home-landing > h2 + .home-lead,
+.md-typeset .home-landing > h2 + div.home-lead > p {
+  margin-top: 0;
+}
+
+/* A faded rule above each home section and a short accent under its title. */
+.md-typeset .home-landing > h2 {
+  position: relative;
+  padding-top: 3rem;
+}
+
+.md-typeset .home-landing > h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(94, 214, 200, 0.35), transparent);
+}
+
+.md-typeset .home-landing > h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin: 0.7rem auto 0;
+  border-radius: 3px;
+  background: var(--md-accent-fg-color);
+}
+
+.md-typeset .home-landing > h2 + .home-lead {
+  margin-top: 0.9rem;
+}
