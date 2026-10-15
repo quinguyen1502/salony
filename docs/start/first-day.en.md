@@ -19,7 +19,7 @@ data. Replay: **Settings → Replay guided tour**.
 
 === "Staff"
 
-    The tour labels **My Bookings**, **My Bills**. Their Add step is
+    The tour labels **Bookings**, **Bills**. Their Add step is
     **Start a new bill** — not a booking.
 
 <div class="shot-row" markdown>

@@ -4,7 +4,7 @@ Draft, approve, print. Staff create drafts; Owner / Manager approve.
 
 ## Overview
 
-**Bills** / **My Bills**. On approve, price, tax, extra fees, and commission
+**Bills**; Staff see only their own. On approve, price, tax, extra fees, and commission
 **freeze**.
 
 The top card shows what was approved today and how it splits by payment

@@ -5,7 +5,7 @@ appointments.
 
 ## Overview
 
-**Bookings** / **My Bookings**. **Staff cannot create appointments.**
+**Bookings**, the same tab for every role. **Staff cannot create appointments.**
 
 A strip of days runs across the top; swipe it to move a week, or tap the
 calendar icon to jump. **By staff** shows one column per staff member, plus
@@ -53,7 +53,7 @@ staff). The time must match [availability](schedule.md).
 
 === "Staff"
 
-    **My Bookings**: appointments assigned to them, or the whole store if
+    **Bookings**: appointments assigned to them, or the whole store if
     **Staff bookings** is **Whole store**. They do **not** get **New
     appointment**. They start **New invoice** from **+**.
 

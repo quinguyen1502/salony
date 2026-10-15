@@ -18,7 +18,7 @@ Tour chạy lần đầu khi vào tiệm. Bỏ qua không làm thay đổi dữ 
 
 === "Nhân viên"
 
-    Tour gắn nhãn **Lịch của tôi**, **Hóa đơn của tôi**. Bước Tạo của họ là
+    Tour gắn nhãn **Lịch hẹn**, **Hóa đơn**. Bước Tạo của họ là
     **Tạo hóa đơn mới**, không phải đặt lịch.
 
 <div class="shot-row" markdown>

@@ -4,7 +4,7 @@ Lập nháp, duyệt, in biên lai. Nhân viên tạo nháp; Chủ / Quản lý 
 
 ## Tổng quan
 
-Màn **Hóa đơn** (Chủ / Quản lý) hoặc **Hóa đơn của tôi** (Nhân viên). Khi
+Màn **Hóa đơn**; Nhân viên chỉ thấy hóa đơn của mình. Khi
 duyệt, giá, thuế, phí thêm, hoa hồng **khóa lại**, nên đổi giá sau không đụng
 hóa đơn cũ.
 

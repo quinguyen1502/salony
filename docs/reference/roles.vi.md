@@ -21,9 +21,9 @@ Nhãn trong app: **Chủ tiệm**, **Quản lý**, **Nhân viên**.
 
 </div>
 
-Thanh dưới đổi theo vai trò: Chủ tiệm và Quản lý có **Hôm nay**, **Lịch
-hẹn**, **+**, **Hóa đơn** và **Thêm**; Nhân viên chỉ có **Lịch của tôi** và
-**Hóa đơn của tôi**.
+Mọi vai trò có cùng thanh dưới: **Hôm nay**, **Lịch hẹn**, **+**, **Hóa
+đơn** và **Thêm**. Với Nhân viên, các tab chỉ hiện việc của chính họ (thu
+nhập thay cho doanh thu tiệm), và **+** mở thẳng hóa đơn mới.
 
 Nhân viên thấy giao diện điện thoại này trên mọi máy. Trên máy tính bảng hay
 máy tính, app nằm trong một cột rộng bằng điện thoại ở giữa màn hình; Chủ

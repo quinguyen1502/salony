@@ -5,8 +5,8 @@ tiệm và Quản lý tạo lịch mới.
 
 ## Tổng quan
 
-Màn **Lịch hẹn** (Chủ / Quản lý) hoặc **Lịch của tôi** (Nhân viên). Nhân viên
-**không** có nút đặt lịch mới.
+Màn **Lịch hẹn**, cùng tên cho mọi vai trò. Nhân viên **không** có nút đặt
+lịch mới.
 
 Trên cùng là dải ngày; vuốt để sang tuần khác, hoặc bấm biểu tượng lịch để
 nhảy tới ngày cần xem. **Theo nhân viên** chia mỗi nhân viên một cột, thêm
@@ -53,7 +53,7 @@ Có [dịch vụ](services.md) và [nhân viên](staff.md) (người thật ho�
 
 === "Nhân viên"
 
-    Tab **Lịch của tôi**: lịch gán cho họ, hoặc cả tiệm nếu **Lịch nhân viên**
+    Tab **Lịch hẹn**: lịch gán cho họ, hoặc cả tiệm nếu **Lịch nhân viên**
     là **Cả tiệm**. Họ **không** có **Đặt lịch mới**. Họ lập **Hóa đơn mới**
     từ nút **+**.
 

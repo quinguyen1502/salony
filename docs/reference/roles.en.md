@@ -21,9 +21,10 @@ In-app labels: **Owner**, **Manager**, **Staff**.
 
 </div>
 
-The bottom bar changes with the role: an Owner or Manager gets **Today**,
-**Bookings**, **+**, **Bills**, and **More**; a Staff device gets only **My
-schedule** and **My invoices**.
+Every role gets the same bottom bar: **Today**, **Bookings**, **+**,
+**Bills**, and **More**. On a Staff device the tabs show only that person's
+work (their earnings instead of the store's revenue), and **+** opens a new
+bill directly.
 
 Staff see this phone layout on every device. On a tablet or computer it sits
 in a phone-width column in the middle of the screen; an Owner or Manager on
